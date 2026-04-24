@@ -1,6 +1,6 @@
 # Magia w świecie
 
-> Jeśli szukasz **mechanicznych zasad magii**, przejdź tutaj → [[mechaniki/magia|Magia]]
+> Jeśli szukasz **mechanicznych zasad magii**, przejdź tutaj → [[Mechaniki/Magia|Magia]]
 
 Magia w świecie **Kronik Krwi i Zboża** nie jest zjawiskiem rzadkim ani całkowicie tajemnym. Nie każdy potrafi władać nią biegle, ale niemal każdy zna jej istnienie, widział jej skutki albo zetknął się z jej prostszymi formami.
 
