@@ -1,7 +1,3 @@
-# Advantage i Threat w walce
-
-Walka w Genesys nie opiera się wyłącznie na pytaniu „trafił czy nie”. Bardzo ważne są także efekty poboczne wynikające z **#Advantage**, **#Threat**, **#Triumph** i **#Despair**
-
 | Koszt | Efekt |
 |---|---|
 | #Advantage | - Odzyskaj 1 strain<br>- Daj #Boost do następnego testu sojusznika |
