@@ -101,7 +101,7 @@ Jeśli po skasowaniu symboli w wyniku zostanie co najmniej **1 #Success**, atak 
 - Zadawanie obrażeń:
   - **obrażenia broni + dodatkowe #Success = obrażenia zadane przed redukcją**
   - Następnie cel zmniejsza te obrażenia o swoją **[[SOAK]]**.
-  - Dopiero pozostała wartość trafia w jego **[[Wounds#Wound Threshold|Wound Threshold|]]**.
+  - Dopiero pozostała wartość trafia w jego **[[Wounds#Wound Threshold|Wound Threshold]]**.
 
 ## #Advantage i #Threat w walce
 
@@ -115,14 +115,3 @@ Część wydatków #Advantage i #Triumph może też służyć do:
 - aktywowania qualities broni,
 - zadania **Critical Injury**: Jeśli broń ma **Critical Rating**, odpowiednia liczba #Advantage pozwala wywołać rzut na obrażenia krytyczne. 
 - uruchomienia specjalnych efektów opisu broni.
-
-## Osłona i warunki
-
-Warunki pola walki mają duże znaczenie. MG może dodawać:
-- **#Boost** za dobrą pozycję, przewagę terenu lub wsparcie,
-- **#Setback** za ciemność, błoto, stres, tłok, osłonę, ograniczoną widoczność albo inne utrudnienia.
-
-## Utrata przytomności i wyłączenie z walki
-- Jeśli postać przekroczy swój **Wound Threshold**, zostaje wyłączona z walki i **traci przytomność**.
-  - To nie zawsze musi oznaczać natychmiastową śmierć, ale oznacza, że postać nie jest już zdolna do dalszego skutecznego udziału w starciu bez dalszych konsekwencji.
-- Podobnie przekroczenie **Strain Threshold** może oznaczać załamanie, utratę kontroli, wyczerpanie albo chwilowe wyłączenie z działania.
