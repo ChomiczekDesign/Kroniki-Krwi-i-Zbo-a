@@ -7,9 +7,7 @@ from urllib.parse import unquote_to_bytes
 SRC_DIR = Path("wiki")
 OUT_DIR = Path("wiki_build")
 CSS_SOURCE = Path(".github/assets/StarWarsDice.css")
-FONT_PATH = "/.github/assets/EotE_Symbol-Regular_v1.otf"
 
-# Kanoniczne nazwy tagów obsługiwanych przez skrypt
 SUPPORTED_TAGS = [
     "Boost",
     "Setback",
@@ -25,9 +23,10 @@ SUPPORTED_TAGS = [
     "Triumph",
     "Despair",
     "LightDark",
+    "LightSide",
+    "DarkSide",
 ]
 
-# Aliasy wpisywane w markdownzie
 ALIASES = {
     "boost": "Boost",
     "setback": "Setback",
@@ -35,6 +34,7 @@ ALIASES = {
     "difficulty": "Difficulty",
     "proficiency": "Proficiency",
     "challenge": "Challenge",
+    "challange": "Challenge",
     "force": "Force",
     "success": "Success",
     "failure": "Failure",
@@ -44,10 +44,24 @@ ALIASES = {
     "despair": "Despair",
     "lightdark": "LightDark",
     "light-dark": "LightDark",
-    "lightdarkside": "LightDark",
+    "lightside": "LightSide",
+    "light-side": "LightSide",
+    "darkside": "DarkSide",
+    "dark-side": "DarkSide",
 }
 
-# Symbole, które mają zostać jako inline SVG z currentColor
+# Kości jako zwykłe znaki Unicode
+DICE_TAG_TO_UNICODE = {
+    "boost": ("■", "dice-boost"),
+    "setback": ("□", "dice-setback"),
+    "ability": ("◆", "dice-ability"),
+    "difficulty": ("◆", "dice-difficulty"),
+    "proficiency": ("⬣", "dice-proficiency"),
+    "challenge": ("⬣", "dice-challenge"),
+    "force": ("⬡", "dice-force"),
+}
+
+# Symbole wyników zostają jako SVG/currentColor
 CURRENT_COLOR_TAGS = {
     "Success",
     "Failure",
@@ -56,109 +70,69 @@ CURRENT_COLOR_TAGS = {
     "Triumph",
     "Despair",
     "LightDark",
+    "LightSide",
+    "DarkSide",
 }
 
-# Kości, które renderujemy fontem
-DICE_TAG_TO_GLYPH = {
-    "boost": ("b", "dice-boost"),          # pełny kwadrat
-    "setback": ("B", "dice-setback"),      # pusty kwadrat
-    "ability": ("d", "dice-ability"),      # pełny romb
-    "difficulty": ("D", "dice-difficulty"),# pusty romb
-    "proficiency": ("c", "dice-proficiency"), # pełny hex
-    "challenge": ("C", "dice-challenge"),     # pusty hex
-    "force": ("w", "dice-force"),          # symbol mocy z fonta
-}
-
-# Znajdź wszystkie #Tagi
 TAG_PATTERN = re.compile(r'(?<![\w/])#([A-Za-z][A-Za-z\-]*)(?![\w-])')
 
-# Wyciąga data:image/svg+xml... z CSS
 CSS_ICON_PATTERN = re.compile(
     r'href\^\="#(?P<name>[A-Za-z]+)"[\s\S]*?content:\s*url\("(?P<data>data:image/svg\+xml(?:;base64)?,[^"]+)"\);',
     re.MULTILINE,
 )
 
-INJECTED_STYLE = f"""
+INJECTED_STYLE = """
 <style>
-@font-face {{
-  font-family: 'EotE Symbols';
-  src: url('{FONT_PATH}') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}}
-
-.dice-font {{
-  font-family: 'EotE Symbols', sans-serif;
+.dice-char {
   display: inline-block;
   line-height: 1;
   vertical-align: -0.08em;
-  font-weight: normal;
-  font-style: normal;
-}}
+  font-weight: 700;
+}
 
-.dice-boost {{
+.dice-boost {
   color: #56A7E9;
-  font-size: 1.05em;
-}}
+  font-size: 0.95em;
+}
 
-.dice-setback {{
+.dice-setback {
   color: #f5f5f5;
-  font-size: 1.05em;
-  text-shadow:
-    0.03em 0 0 currentColor,
-    -0.03em 0 0 currentColor,
-    0 0.03em 0 currentColor,
-    0 -0.03em 0 currentColor;
-}}
+  font-size: 0.95em;
+}
 
-.dice-ability {{
+.dice-ability {
   color: #44D433;
-  font-size: 1.08em;
-}}
+  font-size: 1.0em;
+}
 
-.dice-difficulty {{
+.dice-difficulty {
   color: #A06BFF;
-  font-size: 1.08em;
-  text-shadow:
-    0.02em 0 0 currentColor,
-    -0.02em 0 0 currentColor,
-    0 0.02em 0 currentColor,
-    0 -0.02em 0 currentColor;
-}}
+  font-size: 1.0em;
+}
 
-.dice-proficiency {{
+.dice-proficiency {
   color: #FFF041;
-  font-size: 1.15em;
-}}
+  font-size: 1.05em;
+}
 
-.dice-challenge {{
+.dice-challenge {
   color: #FF4A4A;
-  font-size: 1.15em;
-  text-shadow:
-    0.02em 0 0 currentColor,
-    -0.02em 0 0 currentColor,
-    0 0.02em 0 currentColor,
-    0 -0.02em 0 currentColor;
-}}
+  font-size: 1.05em;
+}
 
-.dice-force {{
+.dice-force {
   color: #f5f5f5;
-  font-size: 1.15em;
-  text-shadow:
-    0.03em 0 0 currentColor,
-    -0.03em 0 0 currentColor,
-    0 0.03em 0 currentColor,
-    0 -0.03em 0 currentColor;
-}}
+  font-size: 1.05em;
+}
 
-.dice-inline {{
+.dice-inline {
   display: inline-block;
   width: 0.95em;
   height: 0.95em;
   vertical-align: -0.12em;
   color: inherit;
   overflow: visible;
-}}
+}
 </style>
 """.strip()
 
@@ -316,16 +290,16 @@ def build_symbol_html(tag_name: str, data_uri: str) -> str:
     return svg
 
 
-def build_font_die_html(tag_name_lower: str) -> str:
-    glyph, css_class = DICE_TAG_TO_GLYPH[tag_name_lower]
-    return f'<span class="dice-font {css_class}" title="{tag_name_lower}">{glyph}</span>'
+def build_unicode_die_html(tag_name_lower: str) -> str:
+    glyph, css_class = DICE_TAG_TO_UNICODE[tag_name_lower]
+    return f'<span class="dice-char {css_class}" title="{tag_name_lower}">{glyph}</span>'
 
 
 def build_replacement(tag_name: str, icon_map: dict[str, str]) -> str:
     lower = tag_name.lower()
 
-    if lower in DICE_TAG_TO_GLYPH:
-        return build_font_die_html(lower)
+    if lower in DICE_TAG_TO_UNICODE:
+        return build_unicode_die_html(lower)
 
     if tag_name in CURRENT_COLOR_TAGS:
         data_uri = icon_map.get(tag_name)
@@ -337,7 +311,7 @@ def build_replacement(tag_name: str, icon_map: dict[str, str]) -> str:
 
 def replace_tags(text: str, icon_map: dict[str, str]) -> str:
     def repl(match: re.Match[str]) -> str:
-        raw_tag = match.group(1)  # bez #
+        raw_tag = match.group(1)
         canonical = canonicalize_tag(raw_tag)
         if not canonical:
             return match.group(0)
@@ -348,9 +322,9 @@ def replace_tags(text: str, icon_map: dict[str, str]) -> str:
 
 
 def inject_style_block(text: str) -> str:
-    if "@font-face" in text or "dice-font" in text:
+    if "dice-char" in text or "dice-inline" in text:
         return text
-    return INJECTED_STYLE + "\n\n" + text
+    return INJECTED_STYLE + "\\n\\n" + text
 
 
 def main() -> None:
