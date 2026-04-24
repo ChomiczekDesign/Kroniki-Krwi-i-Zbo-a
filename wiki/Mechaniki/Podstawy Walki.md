@@ -93,6 +93,7 @@ Jeśli po skasowaniu symboli w wyniku zostanie co najmniej **1 #Success**, atak 
 
 ### Trudność ataku według [[Zasięgi|zasięgu]]
 
+![[Zasięgi#Zasięg a broń]]
 
 ## Trafienie i obrażenia
 
