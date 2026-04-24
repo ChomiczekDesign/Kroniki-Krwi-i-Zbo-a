@@ -21,7 +21,7 @@ SUPPORTED_TAGS = [
     "Threat",
     "Triumph",
     "Despair",
-]border:
+]
 
 CURRENT_COLOR_TAGS = {
     "Success",
