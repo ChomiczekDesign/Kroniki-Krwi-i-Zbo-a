@@ -49,10 +49,10 @@ Na potrzeby talentów test **Poznawania Motywacji** traktowany jest jako **Knowl
 
 Podczas wykonywania testów społecznych zdobyte symbole można wykorzystać do częściowego rozpoznania Motywacji celu.
 - #Triumph / #Advantage #Advantage: Wybierz **Strength** albo **Flaw** celu i uzyskaj informacje na jego temat.
-- #Triumph / *#Advantage #Advantage #Advantage:  Wybierz **Desire** albo **Fear** celu i uzyskaj informacje na jego temat.
+- #Triumph / #Advantage #Advantage #Advantage:  Wybierz **Desire** albo **Fear** celu i uzyskaj informacje na jego temat.
 
 ## Wpływ znajomości Motywacji na testy społeczne
 - **Strength / Flaw**: Jeżeli postać zna istotną **Siłę** lub **Wadę** celu i odpowiednio ją wykorzystuje, może otrzymać #Boost lub dodać celowi #Setback
-- ** Desire / Fear**: Jeżeli postać zna istotne **Pragnienie** lub **Lęk** celu i umiejętnie odwołuje się do niego w scenie, może otrzymać #Boost #Boost lub dodać celowi #Setback  #Setback
+- **Desire / Fear**: Jeżeli postać zna istotne **Pragnienie** lub **Lęk** celu i umiejętnie odwołuje się do niego w scenie, może otrzymać #Boost #Boost lub dodać celowi #Setback  #Setback
 
 Ostateczna decyzja o przyznaniu kości należy do MG i zależy od przebiegu sceny.
