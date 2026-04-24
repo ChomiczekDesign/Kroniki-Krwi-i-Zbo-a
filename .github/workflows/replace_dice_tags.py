@@ -181,7 +181,7 @@ def transform_svg_root(svg: str, tag_name: str) -> str:
     attrs = add_or_replace_attr(
         attrs,
         "style",
-        "display:inline-block;width:0.95em;height:0.95em;vertical-align:-0.12em;color:inherit;overflow:visible;"
+        "display:inline-block;width:1.05em;height:1.05em;vertical-align:-0.12em;color:inherit;overflow:visible;"
     )
     attrs = add_or_replace_attr(attrs, "role", "img")
     attrs = add_or_replace_attr(attrs, "aria-label", tag_name)
