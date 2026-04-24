@@ -1,7 +1,7 @@
 # Mechaniki
 
 Tu znajdziesz zasady używane w kampanii.
-Kroniki rozgrywane sąna systemie **[Genesys](https://online.anyflip.com/afeku/bsys/mobile/index.html)**
+Kroniki rozgrywane są na systemie **[Genesys](https://online.anyflip.com/afeku/bsys/mobile/index.html)**
 
 ## Podstawy Systemu
 - [[Podstawy Mechaniki]
