@@ -1,4 +1,4 @@
-# Podstawy walki
+# Walka
 
 W **Genesys** walka jest rozgrywana w turach i rundach. Każda runda obejmuje moment działania wszystkich uczestników starcia, a każda tura opisuje to, co w tym czasie robi jedna postać lub przeciwnik.
 
