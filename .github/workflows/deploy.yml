@@ -32,7 +32,7 @@ jobs:
 
       - name: Build site
         run: |
-          ./kiln generate --input ./wiki --output ./public --url "https://TWOJ_LOGIN.github.io/NAZWA_REPO"
+          ./kiln generate --input ./wiki --output ./public --url "https://chomiczekdesign.github.io/Kroniki-Krwi-i-Zbo-a"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
