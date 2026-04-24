@@ -4,7 +4,7 @@ Tu znajdziesz zasady używane w kampanii.
 Kroniki rozgrywane są na systemie **[Genesys](https://online.anyflip.com/afeku/bsys/mobile/index.html)**
 
 ## Podstawy Systemu
-- [[Podstawy Mechaniki]
+- [[Podstawy Mechaniki]]
 - [[Lista Umiejętności]]
 - [[Motywacje]]
   - [[Desire]]
