@@ -1,4 +1,4 @@
-# Magia
+# Magia i  Czary
 
 > Jeśli szukasz **wprowadzenia settingowego do magii**, przejdź tutaj → [[setting/magia|Magia w świecie]]
 
@@ -9,7 +9,7 @@ Każde zaklęcie jest traktowane jako osobna **umiejętność magiczna**. Posta�
 ## Nabywanie zaklęć
 
 Zaklęcie można zdobyć na jeden z poniższych sposobów:
-- wykupić za PD podczas tworzenia postaci jako umiejętność karierową,
+- wykupić za EXP podczas tworzenia postaci jako umiejętność karierową,
 - zdobyć fabularnie w trakcie kampanii.
 
 Po zdobyciu zaklęcia postać wybiera, z jakiego **rodzaju magii** korzysta dany czar.
@@ -45,7 +45,7 @@ Magia pierwotna opiera się na instynkcie, naturze oraz bezpośrednim oddziaływ
 
 Podczas rzucania zaklęć magii pierwotnej postać musi spełnić wymóg komponentu **Somatycznego**. W praktyce oznacza to konieczność wykonywania odpowiednich gestów, co zazwyczaj wymaga przynajmniej jednej wolnej ręki.
 
-[[Magia Werbalna]]
+### [[Magia Werbalna]]
 
 Charakterystyka: **Presence**
 
@@ -55,7 +55,8 @@ Magia werbalna opiera się na głosie, brzmieniu i obecności czarującego. Jej 
 
 Aby rzucić zaklęcie magii werbalnej, postać musi być zdolna do wydawania odpowiednich dźwięków. W zależności od konkretnej praktyki może to oznaczać mowę, śpiew, recytację lub użycie instrumentu muzycznego.
 
-[[Magia Arkana]]
+### [[Magia Arkana]]
+
 Charakterystyka: **Intellect**
 
 Wymagany komponent: **Focus**
