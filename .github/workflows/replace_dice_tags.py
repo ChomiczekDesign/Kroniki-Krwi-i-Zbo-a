@@ -8,6 +8,7 @@ SRC_DIR = Path("wiki")
 OUT_DIR = Path("wiki_build")
 CSS_SOURCE = Path(".github/assets/StarWarsDice.css")
 
+# Kanoniczne nazwy, których szukamy w CSS
 SUPPORTED_TAGS = [
     "Boost",
     "Setback",
@@ -21,7 +22,29 @@ SUPPORTED_TAGS = [
     "Threat",
     "Triumph",
     "Despair",
+    "Force",
+    "LightDark",
 ]
+
+# Aliasy wpisywane przez Ciebie w markdownzie
+ALIASES = {
+    "boost": "Boost",
+    "setback": "Setback",
+    "ability": "Ability",
+    "difficulty": "Difficulty",
+    "proficiency": "Proficiency",
+    "challenge": "Challenge",
+    "success": "Success",
+    "failure": "Failure",
+    "advantage": "Advantage",
+    "threat": "Threat",
+    "triumph": "Triumph",
+    "despair": "Despair",
+    "force": "Force",
+    "lightdark": "LightDark",
+    "lightdarkside": "LightDark",
+    "light-side-dark-side": "LightDark",
+}
 
 CURRENT_COLOR_TAGS = {
     "Success",
@@ -39,11 +62,11 @@ DICE_TAGS = {
     "Difficulty",
     "Proficiency",
     "Challenge",
+    "Force",
+    "LightDark",
 }
 
-TAG_PATTERN = re.compile(
-    r'(?<![\w/])(' + '|'.join(re.escape(f"#{tag}") for tag in SUPPORTED_TAGS) + r')(?![\w-])'
-)
+TAG_PATTERN = re.compile(r'(?<![\w/])#([A-Za-z][A-Za-z\-]*)(?![\w-])')
 
 CSS_ICON_PATTERN = re.compile(
     r'href\^\="#(?P<name>[A-Za-z]+)"[\s\S]*?content:\s*url\("(?P<data>data:image/svg\+xml(?:;base64)?,[^"]+)"\);',
@@ -76,15 +99,11 @@ def decode_data_uri_to_svg(data_uri: str) -> str:
 
 
 def normalize_svg_markup(svg: str) -> str:
-    # Usuń XML/DOCTYPE
     svg = re.sub(r'^\s*<\?xml[^>]*>\s*', '', svg, flags=re.IGNORECASE)
     svg = re.sub(r'^\s*<!DOCTYPE[^>]*>\s*', '', svg, flags=re.IGNORECASE)
-
-    # Spłaszcz do jednej linii, żeby markdown nie traktował tego jak block HTML
     svg = re.sub(r'[\r\n\t]+', ' ', svg)
     svg = re.sub(r'>\s+<', '><', svg)
     svg = re.sub(r'\s{2,}', ' ', svg)
-
     return svg.strip()
 
 
@@ -105,16 +124,8 @@ def replace_black_with_current_color(svg: str) -> str:
             flags=re.IGNORECASE,
         )
 
-    svg = re.sub(
-        rf'(?i)(fill\s*:\s*){color_pattern}',
-        r'\1currentColor',
-        svg,
-    )
-    svg = re.sub(
-        rf'(?i)(stroke\s*:\s*){color_pattern}',
-        r'\1currentColor',
-        svg,
-    )
+    svg = re.sub(rf'(?i)(fill\s*:\s*){color_pattern}', r'\1currentColor', svg)
+    svg = re.sub(rf'(?i)(stroke\s*:\s*){color_pattern}', r'\1currentColor', svg)
 
     return svg
 
@@ -175,7 +186,6 @@ def transform_svg_root(
 
     attrs = match.group(1)
 
-    # Usuń width/height z oryginału
     attrs = re.sub(r'\swidth\s*=\s*"[^"]*"', '', attrs, flags=re.IGNORECASE)
     attrs = re.sub(r"\swidth\s*=\s*'[^']*'", '', attrs, flags=re.IGNORECASE)
     attrs = re.sub(r'\sheight\s*=\s*"[^"]*"', '', attrs, flags=re.IGNORECASE)
@@ -189,14 +199,37 @@ def transform_svg_root(
     attrs = append_or_set_attr(attrs, "preserveAspectRatio", "xMidYMid meet")
 
     if force_current_color_fill:
-        # Daj fill=currentColor na root jako fallback
         attrs = append_or_set_attr(attrs, "fill", "currentColor")
         attrs = append_or_set_attr(attrs, "stroke", "currentColor")
 
     new_svg_tag = f"<svg{attrs}>"
     svg = svg[:match.start()] + new_svg_tag + svg[match.end():]
-
     return svg
+
+
+def add_outline_to_first_shape(svg: str, stroke_width: str = "1.2") -> str:
+    # Próbujemy obrysować pierwszy główny shape – zwykle to korpus kości.
+    shape_pattern = re.compile(r'<(path|polygon|rect|circle|ellipse)\b([^>]*)>', flags=re.IGNORECASE)
+    match = shape_pattern.search(svg)
+    if not match:
+        return svg
+
+    tag = match.group(1)
+    attrs = match.group(2)
+
+    attrs = append_or_set_attr(attrs, "stroke", "currentColor")
+    attrs = append_or_set_attr(attrs, "stroke-width", stroke_width)
+    attrs = append_or_set_attr(attrs, "paint-order", "stroke fill")
+    attrs = append_or_set_attr(attrs, "vector-effect", "non-scaling-stroke")
+    attrs = append_or_set_attr(attrs, "stroke-linejoin", "round")
+
+    new_tag = f"<{tag}{attrs}>"
+    svg = svg[:match.start()] + new_tag + svg[match.end():]
+    return svg
+
+
+def canonicalize_tag(raw_tag: str) -> str | None:
+    return ALIASES.get(raw_tag.lower())
 
 
 def build_symbol_html(tag_name: str, data_uri: str) -> str:
@@ -211,30 +244,22 @@ def build_symbol_html(tag_name: str, data_uri: str) -> str:
         style="display:inline-block;width:0.95em;height:0.95em;vertical-align:-0.12em;color:inherit;overflow:visible;",
         force_current_color_fill=True,
     )
-
     return svg
 
 
 def build_die_html(tag_name: str, data_uri: str) -> str:
     svg = decode_data_uri_to_svg(data_uri)
     svg = normalize_svg_markup(svg)
+    svg = add_outline_to_first_shape(svg, stroke_width="1.2")
 
     svg = transform_svg_root(
         svg,
         tag_name,
-        class_name=f"dice-inline-inner dice-{tag_name.lower()}",
-        style="display:block;width:0.78em;height:0.78em;overflow:visible;",
+        class_name=f"dice-inline dice-die dice-{tag_name.lower()}",
+        style="display:inline-block;width:1em;height:1em;vertical-align:-0.12em;color:inherit;overflow:visible;",
         force_current_color_fill=False,
     )
-
-    return (
-        f'<span class="dice-inline-box dice-{tag_name.lower()}" '
-        f'title="{tag_name}" '
-        f'style="display:inline-flex;align-items:center;justify-content:center;'
-        f'width:1em;height:1em;vertical-align:-0.12em;line-height:0;'
-        f'border:0.04em solid currentColor;border-radius:0.16em;box-sizing:border-box;'
-        f'color:inherit;">{svg}</span>'
-    )
+    return svg
 
 
 def build_replacement(tag_name: str, data_uri: str) -> str:
@@ -242,17 +267,21 @@ def build_replacement(tag_name: str, data_uri: str) -> str:
         return build_symbol_html(tag_name, data_uri)
     if tag_name in DICE_TAGS:
         return build_die_html(tag_name, data_uri)
-    return tag_name
+    return f"#{tag_name}"
 
 
 def replace_tags(text: str, icon_map: dict[str, str]) -> str:
     def repl(match: re.Match[str]) -> str:
-        full_tag = match.group(1)
-        tag_name = full_tag[1:]
-        data_uri = icon_map.get(tag_name)
+        raw_tag = match.group(1)  # bez #
+        canonical = canonicalize_tag(raw_tag)
+        if not canonical:
+            return match.group(0)
+
+        data_uri = icon_map.get(canonical)
         if not data_uri:
-            return full_tag
-        return build_replacement(tag_name, data_uri)
+            return match.group(0)
+
+        return build_replacement(canonical, data_uri)
 
     return TAG_PATTERN.sub(repl, text)
 
@@ -266,9 +295,7 @@ def main() -> None:
 
     missing = [tag for tag in SUPPORTED_TAGS if tag not in icon_map]
     if missing:
-        raise RuntimeError(
-            "Nie udało się wyciągnąć ikon dla tagów: " + ", ".join(missing)
-        )
+        print("Uwaga: nie znaleziono w CSS ikon dla:", ", ".join(missing))
 
     if OUT_DIR.exists():
         shutil.rmtree(OUT_DIR)
