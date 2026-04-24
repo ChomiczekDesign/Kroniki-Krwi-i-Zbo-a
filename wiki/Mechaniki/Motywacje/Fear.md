@@ -1,6 +1,6 @@
 # Fear — Lęk
 
-**Lęk** jest [Motywacje|motywacją], która opisuje to, czego postać najbardziej się obawia. Może być związany z konkretnym zagrożeniem, ale częściej dotyczy czegoś bardziej osobistego: porażki, utraty kontroli, samotności, zdrady albo utraty bliskich.
+**Lęk** to [[Motywacje|motywacja]], która opisuje to, czego postać najbardziej się obawia. Może być związany z konkretnym zagrożeniem, ale częściej dotyczy czegoś bardziej osobistego: porażki, utraty kontroli, samotności, zdrady albo utraty bliskich.
 
 Lęk jest jednym z najważniejszych źródeł napięcia dramatycznego. To on pokazuje, gdzie bohater się łamie, czego unika i co może pchnąć go do błędnej, desperackiej albo tchórzliwej decyzji. Jednocześnie właśnie konfrontacja z Lękiem często prowadzi do najmocniejszych momentów rozwoju postaci.
 
