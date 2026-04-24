@@ -1,6 +1,6 @@
 # Mechaniki
 
 Tu znajdziesz zasady używane w kampanii.
-Kroniki odbwywają sie w systemie **Genesys**
+Kroniki rozgrywane sąna systemie **Genesys**
 
 ## Sekcje
