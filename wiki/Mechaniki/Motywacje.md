@@ -27,25 +27,21 @@ W trakcie rozgrywki postać może spróbować rozpoznać Motywację innej postac
 ### Test Poznawania Motywacji
 
 1. Wybierz jedną z czterech Motywacji celu.
-2. Jeśli wybrana Motywacja to **Desire** lub **Fear**, trudność testu zostaje **zupgrade’owana**.
-3. Wykonaj przeciwstawny test:  
+1. Jeśli wybrana Motywacja to **Desire** lub **Fear**, trudność testu zostaje **zupgrade’owana**.
+1. Wykonaj przeciwstawny test:  
    **Perception vs Discipline**
-4. Wynik testu rozpatruje się podobnie jak **Knowledge Check**.
+1. Wynik testu rozpatruje się podobnie jak **Knowledge Check**.
 
 ### Interpretacja wyników
-
 - Im więcej **sukcesów**, tym dokładniejsze informacje postać uzyskuje o wybranej Motywacji.
 - Im więcej **advantage**, tym bardziej użyteczne, konkretne albo łatwe do wykorzystania są zdobyte informacje.
 - **Threat** działa odwrotnie — informacje są mniej precyzyjne, mniej przydatne albo trudniejsze do zastosowania.
 
 ### Dodatkowe efekty
-
 - **Triumph** lub **3 Advantage**  
   Dodatkowo wybierz **Strength** albo **Flaw** i uzyskaj informacje również na jej temat.
-
 - **Triumph** lub **4 Advantage**  
   Dodatkowo wybierz **Desire** albo **Fear** i uzyskaj informacje również na jej temat.
-
 - **Triumph**  
   Za zgodą MG możesz zdobyć informacje o **1 Motywacji innej postaci obecnej w scenie**.
 
@@ -56,10 +52,8 @@ Na potrzeby talentów test **Poznawania Motywacji** traktowany jest jako **Knowl
 ## Poznawanie Motywacji jako część testów społecznych
 
 Podczas wykonywania testów społecznych zdobyte symbole można wykorzystać do częściowego rozpoznania Motywacji celu.
-
 - **Triumph** lub **2 Advantage**  
   Wybierz **Strength** albo **Flaw** celu i uzyskaj informacje na jej temat.
-
 - **Triumph** lub **3 Advantage**  
   Wybierz **Desire** albo **Fear** celu i uzyskaj informacje na jej temat.
 
