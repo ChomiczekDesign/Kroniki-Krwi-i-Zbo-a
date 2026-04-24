@@ -1,6 +1,5 @@
 from pathlib import Path
 import base64
-import html
 import re
 import shutil
 from urllib.parse import unquote_to_bytes
@@ -24,7 +23,6 @@ SUPPORTED_TAGS = [
     "Despair",
 ]
 
-# Te tagi będą renderowane jako inline SVG dziedziczące kolor tekstu.
 CURRENT_COLOR_TAGS = {
     "Success",
     "Failure",
@@ -32,6 +30,15 @@ CURRENT_COLOR_TAGS = {
     "Threat",
     "Triumph",
     "Despair",
+}
+
+DICE_TAGS = {
+    "Boost",
+    "Setback",
+    "Ability",
+    "Difficulty",
+    "Proficiency",
+    "Challenge",
 }
 
 TAG_PATTERN = re.compile(
@@ -68,8 +75,20 @@ def decode_data_uri_to_svg(data_uri: str) -> str:
     return raw.decode("utf-8")
 
 
+def normalize_svg_markup(svg: str) -> str:
+    # Usuń XML/DOCTYPE
+    svg = re.sub(r'^\s*<\?xml[^>]*>\s*', '', svg, flags=re.IGNORECASE)
+    svg = re.sub(r'^\s*<!DOCTYPE[^>]*>\s*', '', svg, flags=re.IGNORECASE)
+
+    # Spłaszcz do jednej linii, żeby markdown nie traktował tego jak block HTML
+    svg = re.sub(r'[\r\n\t]+', ' ', svg)
+    svg = re.sub(r'>\s+<', '><', svg)
+    svg = re.sub(r'\s{2,}', ' ', svg)
+
+    return svg.strip()
+
+
 def replace_black_with_current_color(svg: str) -> str:
-    # Zamiana typowych czarnych fill/stroke na currentColor
     color_pattern = r'(?:#000000|#000|black|rgb\(\s*0\s*,\s*0\s*,\s*0\s*\)|rgba\(\s*0\s*,\s*0\s*,\s*0\s*,\s*1(?:\.0+)?\s*\))'
 
     for attr in ("fill", "stroke"):
@@ -86,7 +105,6 @@ def replace_black_with_current_color(svg: str) -> str:
             flags=re.IGNORECASE,
         )
 
-    # Zamiana w stylach inline typu style="fill:#000;stroke:black"
     svg = re.sub(
         rf'(?i)(fill\s*:\s*){color_pattern}',
         r'\1currentColor',
@@ -102,7 +120,6 @@ def replace_black_with_current_color(svg: str) -> str:
 
 
 def append_or_set_attr(attr_string: str, attr_name: str, attr_value: str) -> str:
-    # class
     if attr_name == "class":
         m = re.search(r'\bclass\s*=\s*"([^"]*)"', attr_string, flags=re.IGNORECASE)
         if m:
@@ -117,7 +134,6 @@ def append_or_set_attr(attr_string: str, attr_name: str, attr_value: str) -> str
             )
         return attr_string + f' class="{attr_value}"'
 
-    # style
     if attr_name == "style":
         m = re.search(r'\bstyle\s*=\s*"([^"]*)"', attr_string, flags=re.IGNORECASE)
         if m:
@@ -133,7 +149,6 @@ def append_or_set_attr(attr_string: str, attr_name: str, attr_value: str) -> str
             )
         return attr_string + f' style="{attr_value}"'
 
-    # generic
     if re.search(rf'\b{re.escape(attr_name)}\s*=', attr_string, flags=re.IGNORECASE):
         return re.sub(
             rf'\b{re.escape(attr_name)}\s*=\s*"[^"]*"',
@@ -146,33 +161,37 @@ def append_or_set_attr(attr_string: str, attr_name: str, attr_value: str) -> str
     return attr_string + f' {attr_name}="{attr_value}"'
 
 
-def transform_svg_root(svg: str, tag_name: str) -> str:
-    svg = re.sub(r'^\s*<\?xml[^>]*>\s*', '', svg, flags=re.IGNORECASE)
-    svg = re.sub(r'^\s*<!DOCTYPE[^>]*>\s*', '', svg, flags=re.IGNORECASE)
-    svg = svg.strip()
-
+def transform_svg_root(
+    svg: str,
+    tag_name: str,
+    *,
+    class_name: str,
+    style: str,
+    force_current_color_fill: bool = False,
+) -> str:
     match = re.search(r'<svg\b([^>]*)>', svg, flags=re.IGNORECASE)
     if not match:
         raise ValueError(f"Nie znaleziono znacznika <svg> dla {tag_name}")
 
     attrs = match.group(1)
 
-    # Usuń width/height z oryginału, żeby nasze 1em było pewne
+    # Usuń width/height z oryginału
     attrs = re.sub(r'\swidth\s*=\s*"[^"]*"', '', attrs, flags=re.IGNORECASE)
     attrs = re.sub(r"\swidth\s*=\s*'[^']*'", '', attrs, flags=re.IGNORECASE)
     attrs = re.sub(r'\sheight\s*=\s*"[^"]*"', '', attrs, flags=re.IGNORECASE)
     attrs = re.sub(r"\sheight\s*=\s*'[^']*'", '', attrs, flags=re.IGNORECASE)
 
-    attrs = append_or_set_attr(attrs, "class", f"dice-inline dice-{tag_name.lower()}")
-    attrs = append_or_set_attr(
-        attrs,
-        "style",
-        "display:inline-block;width:1em;height:1em;vertical-align:-0.12em;color:inherit;"
-    )
+    attrs = append_or_set_attr(attrs, "class", class_name)
+    attrs = append_or_set_attr(attrs, "style", style)
     attrs = append_or_set_attr(attrs, "role", "img")
     attrs = append_or_set_attr(attrs, "aria-label", tag_name)
     attrs = append_or_set_attr(attrs, "focusable", "false")
-    attrs = append_or_set_attr(attrs, "fill", "currentColor")
+    attrs = append_or_set_attr(attrs, "preserveAspectRatio", "xMidYMid meet")
+
+    if force_current_color_fill:
+        # Daj fill=currentColor na root jako fallback
+        attrs = append_or_set_attr(attrs, "fill", "currentColor")
+        attrs = append_or_set_attr(attrs, "stroke", "currentColor")
 
     new_svg_tag = f"<svg{attrs}>"
     svg = svg[:match.start()] + new_svg_tag + svg[match.end():]
@@ -180,33 +199,56 @@ def transform_svg_root(svg: str, tag_name: str) -> str:
     return svg
 
 
-def build_inline_svg_html(tag_name: str, data_uri: str) -> str:
+def build_symbol_html(tag_name: str, data_uri: str) -> str:
     svg = decode_data_uri_to_svg(data_uri)
+    svg = normalize_svg_markup(svg)
     svg = replace_black_with_current_color(svg)
-    svg = transform_svg_root(svg, tag_name)
+
+    svg = transform_svg_root(
+        svg,
+        tag_name,
+        class_name=f"dice-inline dice-symbol dice-{tag_name.lower()}",
+        style="display:inline-block;width:0.95em;height:0.95em;vertical-align:-0.12em;color:inherit;overflow:visible;",
+        force_current_color_fill=True,
+    )
+
     return svg
 
 
-def build_img_html(tag_name: str, data_uri: str) -> str:
-    safe_name = html.escape(tag_name, quote=True)
-    safe_uri = html.escape(data_uri, quote=True)
+def build_die_html(tag_name: str, data_uri: str) -> str:
+    svg = decode_data_uri_to_svg(data_uri)
+    svg = normalize_svg_markup(svg)
+
+    svg = transform_svg_root(
+        svg,
+        tag_name,
+        class_name=f"dice-inline-inner dice-{tag_name.lower()}",
+        style="display:block;width:0.78em;height:0.78em;overflow:visible;",
+        force_current_color_fill=False,
+    )
+
     return (
-        f'<img class="dice-inline dice-{tag_name.lower()}" '
-        f'src="{safe_uri}" alt="{safe_name}" title="{safe_name}" '
-        f'style="display:inline-block;width:1em;height:1em;vertical-align:-0.12em;" />'
+        f'<span class="dice-inline-box dice-{tag_name.lower()}" '
+        f'title="{tag_name}" '
+        f'style="display:inline-flex;align-items:center;justify-content:center;'
+        f'width:1em;height:1em;vertical-align:-0.12em;line-height:0;'
+        f'border:0.06em solid currentColor;border-radius:0.16em;box-sizing:border-box;'
+        f'color:inherit;">{svg}</span>'
     )
 
 
 def build_replacement(tag_name: str, data_uri: str) -> str:
     if tag_name in CURRENT_COLOR_TAGS:
-        return build_inline_svg_html(tag_name, data_uri)
-    return build_img_html(tag_name, data_uri)
+        return build_symbol_html(tag_name, data_uri)
+    if tag_name in DICE_TAGS:
+        return build_die_html(tag_name, data_uri)
+    return tag_name
 
 
 def replace_tags(text: str, icon_map: dict[str, str]) -> str:
     def repl(match: re.Match[str]) -> str:
-        full_tag = match.group(1)   # np. "#Advantage"
-        tag_name = full_tag[1:]     # np. "Advantage"
+        full_tag = match.group(1)
+        tag_name = full_tag[1:]
         data_uri = icon_map.get(tag_name)
         if not data_uri:
             return full_tag
