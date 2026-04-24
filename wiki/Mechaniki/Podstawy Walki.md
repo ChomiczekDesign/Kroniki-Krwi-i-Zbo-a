@@ -101,7 +101,7 @@ Jeśli po skasowaniu symboli w wyniku zostanie co najmniej **1 #Success**, atak 
 - Zadawanie obrażeń:
   - **obrażenia broni + dodatkowe #Success = obrażenia zadane przed redukcją**
   - Następnie cel zmniejsza te obrażenia o swoją **[[SOAK]]**.
-  - Dopiero pozostała wartość trafia w jego **[[Wound Threshold]]**.
+  - Dopiero pozostała wartość trafia w jego **[[Wounds#Wound Threshold|Wound Threshold|]]**.
 
 ## #Advantage i #Threat w walce
 
