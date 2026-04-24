@@ -5,9 +5,6 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 permissions:
   contents: read
   pages: write
@@ -33,9 +30,13 @@ jobs:
           curl -L https://github.com/otaleghani/kiln/releases/latest/download/kiln_linux_amd64 -o kiln
           chmod +x kiln
 
+      - name: Process dice tags
+        run: |
+          python3 .github/workflows/replace_dice_tags.py
+
       - name: Build site
         run: |
-          ./kiln generate --input ./wiki --output ./public --url "https://chomiczekdesign.github.io/kroniki-krwi-i-zbo-a"
+          ./kiln generate --input ./wiki_build --output ./public
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
