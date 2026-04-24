@@ -7,8 +7,9 @@ from urllib.parse import unquote_to_bytes
 SRC_DIR = Path("wiki")
 OUT_DIR = Path("wiki_build")
 CSS_SOURCE = Path(".github/assets/StarWarsDice.css")
+FONT_PATH = "/.github/assets/EotE_Symbol-Regular_v1.otf"
 
-# Kanoniczne nazwy, których szukamy w CSS
+# Kanoniczne nazwy tagów obsługiwanych przez skrypt
 SUPPORTED_TAGS = [
     "Boost",
     "Setback",
@@ -16,17 +17,17 @@ SUPPORTED_TAGS = [
     "Difficulty",
     "Proficiency",
     "Challenge",
+    "Force",
     "Success",
     "Failure",
     "Advantage",
     "Threat",
     "Triumph",
     "Despair",
-    "Force",
     "LightDark",
 ]
 
-# Aliasy wpisywane przez Ciebie w markdownzie
+# Aliasy wpisywane w markdownzie
 ALIASES = {
     "boost": "Boost",
     "setback": "Setback",
@@ -34,18 +35,19 @@ ALIASES = {
     "difficulty": "Difficulty",
     "proficiency": "Proficiency",
     "challenge": "Challenge",
+    "force": "Force",
     "success": "Success",
     "failure": "Failure",
     "advantage": "Advantage",
     "threat": "Threat",
     "triumph": "Triumph",
     "despair": "Despair",
-    "force": "Force",
     "lightdark": "LightDark",
+    "light-dark": "LightDark",
     "lightdarkside": "LightDark",
-    "light-side-dark-side": "LightDark",
 }
 
+# Symbole, które mają zostać jako inline SVG z currentColor
 CURRENT_COLOR_TAGS = {
     "Success",
     "Failure",
@@ -53,25 +55,112 @@ CURRENT_COLOR_TAGS = {
     "Threat",
     "Triumph",
     "Despair",
-}
-
-DICE_TAGS = {
-    "Boost",
-    "Setback",
-    "Ability",
-    "Difficulty",
-    "Proficiency",
-    "Challenge",
-    "Force",
     "LightDark",
 }
 
+# Kości, które renderujemy fontem
+DICE_TAG_TO_GLYPH = {
+    "boost": ("b", "dice-boost"),          # pełny kwadrat
+    "setback": ("B", "dice-setback"),      # pusty kwadrat
+    "ability": ("d", "dice-ability"),      # pełny romb
+    "difficulty": ("D", "dice-difficulty"),# pusty romb
+    "proficiency": ("c", "dice-proficiency"), # pełny hex
+    "challenge": ("C", "dice-challenge"),     # pusty hex
+    "force": ("w", "dice-force"),          # symbol mocy z fonta
+}
+
+# Znajdź wszystkie #Tagi
 TAG_PATTERN = re.compile(r'(?<![\w/])#([A-Za-z][A-Za-z\-]*)(?![\w-])')
 
+# Wyciąga data:image/svg+xml... z CSS
 CSS_ICON_PATTERN = re.compile(
     r'href\^\="#(?P<name>[A-Za-z]+)"[\s\S]*?content:\s*url\("(?P<data>data:image/svg\+xml(?:;base64)?,[^"]+)"\);',
     re.MULTILINE,
 )
+
+INJECTED_STYLE = f"""
+<style>
+@font-face {{
+  font-family: 'EotE Symbols';
+  src: url('{FONT_PATH}') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}}
+
+.dice-font {{
+  font-family: 'EotE Symbols', sans-serif;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: -0.08em;
+  font-weight: normal;
+  font-style: normal;
+}}
+
+.dice-boost {{
+  color: #56A7E9;
+  font-size: 1.05em;
+}}
+
+.dice-setback {{
+  color: #f5f5f5;
+  font-size: 1.05em;
+  text-shadow:
+    0.03em 0 0 currentColor,
+    -0.03em 0 0 currentColor,
+    0 0.03em 0 currentColor,
+    0 -0.03em 0 currentColor;
+}}
+
+.dice-ability {{
+  color: #44D433;
+  font-size: 1.08em;
+}}
+
+.dice-difficulty {{
+  color: #A06BFF;
+  font-size: 1.08em;
+  text-shadow:
+    0.02em 0 0 currentColor,
+    -0.02em 0 0 currentColor,
+    0 0.02em 0 currentColor,
+    0 -0.02em 0 currentColor;
+}}
+
+.dice-proficiency {{
+  color: #FFF041;
+  font-size: 1.15em;
+}}
+
+.dice-challenge {{
+  color: #FF4A4A;
+  font-size: 1.15em;
+  text-shadow:
+    0.02em 0 0 currentColor,
+    -0.02em 0 0 currentColor,
+    0 0.02em 0 currentColor,
+    0 -0.02em 0 currentColor;
+}}
+
+.dice-force {{
+  color: #f5f5f5;
+  font-size: 1.15em;
+  text-shadow:
+    0.03em 0 0 currentColor,
+    -0.03em 0 0 currentColor,
+    0 0.03em 0 currentColor,
+    0 -0.03em 0 currentColor;
+}}
+
+.dice-inline {{
+  display: inline-block;
+  width: 0.95em;
+  height: 0.95em;
+  vertical-align: -0.12em;
+  color: inherit;
+  overflow: visible;
+}}
+</style>
+""".strip()
 
 
 def extract_icons_from_css(css_text: str) -> dict[str, str]:
@@ -207,27 +296,6 @@ def transform_svg_root(
     return svg
 
 
-def add_outline_to_first_shape(svg: str, stroke_width: str = "1.2") -> str:
-    # Próbujemy obrysować pierwszy główny shape – zwykle to korpus kości.
-    shape_pattern = re.compile(r'<(path|polygon|rect|circle|ellipse)\b([^>]*)>', flags=re.IGNORECASE)
-    match = shape_pattern.search(svg)
-    if not match:
-        return svg
-
-    tag = match.group(1)
-    attrs = match.group(2)
-
-    attrs = append_or_set_attr(attrs, "stroke", "currentColor")
-    attrs = append_or_set_attr(attrs, "stroke-width", stroke_width)
-    attrs = append_or_set_attr(attrs, "paint-order", "stroke fill")
-    attrs = append_or_set_attr(attrs, "vector-effect", "non-scaling-stroke")
-    attrs = append_or_set_attr(attrs, "stroke-linejoin", "round")
-
-    new_tag = f"<{tag}{attrs}>"
-    svg = svg[:match.start()] + new_tag + svg[match.end():]
-    return svg
-
-
 def canonicalize_tag(raw_tag: str) -> str | None:
     return ALIASES.get(raw_tag.lower())
 
@@ -244,29 +312,26 @@ def build_symbol_html(tag_name: str, data_uri: str) -> str:
         style="display:inline-block;width:0.95em;height:0.95em;vertical-align:-0.12em;color:inherit;overflow:visible;",
         force_current_color_fill=True,
     )
+
     return svg
 
 
-def build_die_html(tag_name: str, data_uri: str) -> str:
-    svg = decode_data_uri_to_svg(data_uri)
-    svg = normalize_svg_markup(svg)
-    svg = add_outline_to_first_shape(svg, stroke_width="1.2")
-
-    svg = transform_svg_root(
-        svg,
-        tag_name,
-        class_name=f"dice-inline dice-die dice-{tag_name.lower()}",
-        style="display:inline-block;width:1em;height:1em;vertical-align:-0.12em;color:inherit;overflow:visible;",
-        force_current_color_fill=False,
-    )
-    return svg
+def build_font_die_html(tag_name_lower: str) -> str:
+    glyph, css_class = DICE_TAG_TO_GLYPH[tag_name_lower]
+    return f'<span class="dice-font {css_class}" title="{tag_name_lower}">{glyph}</span>'
 
 
-def build_replacement(tag_name: str, data_uri: str) -> str:
+def build_replacement(tag_name: str, icon_map: dict[str, str]) -> str:
+    lower = tag_name.lower()
+
+    if lower in DICE_TAG_TO_GLYPH:
+        return build_font_die_html(lower)
+
     if tag_name in CURRENT_COLOR_TAGS:
-        return build_symbol_html(tag_name, data_uri)
-    if tag_name in DICE_TAGS:
-        return build_die_html(tag_name, data_uri)
+        data_uri = icon_map.get(tag_name)
+        if data_uri:
+            return build_symbol_html(tag_name, data_uri)
+
     return f"#{tag_name}"
 
 
@@ -277,13 +342,15 @@ def replace_tags(text: str, icon_map: dict[str, str]) -> str:
         if not canonical:
             return match.group(0)
 
-        data_uri = icon_map.get(canonical)
-        if not data_uri:
-            return match.group(0)
-
-        return build_replacement(canonical, data_uri)
+        return build_replacement(canonical, icon_map)
 
     return TAG_PATTERN.sub(repl, text)
+
+
+def inject_style_block(text: str) -> str:
+    if "@font-face" in text or "dice-font" in text:
+        return text
+    return INJECTED_STYLE + "\n\n" + text
 
 
 def main() -> None:
@@ -293,10 +360,6 @@ def main() -> None:
     css_text = CSS_SOURCE.read_text(encoding="utf-8")
     icon_map = extract_icons_from_css(css_text)
 
-    missing = [tag for tag in SUPPORTED_TAGS if tag not in icon_map]
-    if missing:
-        print("Uwaga: nie znaleziono w CSS ikon dla:", ", ".join(missing))
-
     if OUT_DIR.exists():
         shutil.rmtree(OUT_DIR)
     shutil.copytree(SRC_DIR, OUT_DIR)
@@ -304,6 +367,7 @@ def main() -> None:
     for path in OUT_DIR.rglob("*.md"):
         original = path.read_text(encoding="utf-8")
         updated = replace_tags(original, icon_map)
+        updated = inject_style_block(updated)
         path.write_text(updated, encoding="utf-8")
 
     print(f"[OK] Zbudowano przetworzone markdowny w: {OUT_DIR}")
