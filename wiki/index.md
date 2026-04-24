@@ -6,7 +6,7 @@ To świat rozdrobnionych krain, lokalnych władców, starych bogów, zapomnianyc
 
 ## Co znajdziesz w wiki?
 
-### [[Setting]
+### [[Setting]]
 Informacje o świecie gry:
 - krainach i kulturach,
 - bogach i wierzeniach,
@@ -22,7 +22,6 @@ Informacje o zasadach używanych w kampanii:
 - magii, domenach i innych zasadach homebrew używanych w tej kampanii.
 
 ## Szybki skrót
-
 - **System:** Genesys  
 - **Ton:** mroczne, przyziemne fantasy z silnymi wpływami słowiańskimi  
 - **Motywy:** bogowie, przetrwanie, lokalne konflikty, dzika natura, dawne ruiny, magia i wiara  
