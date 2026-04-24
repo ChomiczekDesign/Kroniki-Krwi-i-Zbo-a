@@ -28,22 +28,18 @@ W trakcie rozgrywki postać może spróbować rozpoznać Motywację innej postac
 
 - Wybierz jedną z czterech Motywacji celu.
 - Jeśli wybrana Motywacja to **Desire** lub **Fear**, trudność testu zostaje **zupgrade’owana**.
-- Wykonaj przeciwstawny test:  
-   **Perception vs Discipline**
+- Wykonaj przeciwstawny test: **Perception vs Discipline**
 - Wynik testu rozpatruje się podobnie jak **Knowledge Check**.
 
 ### Interpretacja wyników
-- Im więcej **sukcesów**, tym dokładniejsze informacje postać uzyskuje o wybranej Motywacji.
-- Im więcej **advantage**, tym bardziej użyteczne, konkretne albo łatwe do wykorzystania są zdobyte informacje.
-- **Threat** działa odwrotnie — informacje są mniej precyzyjne, mniej przydatne albo trudniejsze do zastosowania.
+- Im więcej #Success, tym dokładniejsze informacje postać uzyskuje o wybranej Motywacji.
+- Im więcej #Advantage, tym bardziej użyteczne, konkretne albo łatwe do wykorzystania są zdobyte informacje.
+- #Threat działa odwrotnie — informacje są mniej precyzyjne, mniej przydatne albo trudniejsze do zastosowania.
 
 ### Dodatkowe efekty
-- **Triumph** lub **3 Advantage**  
-  Dodatkowo wybierz **Strength** albo **Flaw** i uzyskaj informacje również na jej temat.
-- **Triumph** lub **4 Advantage**  
-  Dodatkowo wybierz **Desire** albo **Fear** i uzyskaj informacje również na jej temat.
-- **Triumph**  
-  Za zgodą MG możesz zdobyć informacje o **1 Motywacji innej postaci obecnej w scenie**.
+- #Triumph / #Advantage #Advantage #Advantage: Dodatkowo wybierz **Strength** albo **Flaw** i uzyskaj informacje również na jej temat.
+- #Triumph / #Advantage #Advantage #Advantage #Advantage: Dodatkowo wybierz **Desire** albo **Fear** i uzyskaj informacje również na jej temat.
+- #Triumph: Za zgodą MG możesz zdobyć informacje o **1 Motywacji innej postaci obecnej w scenie**.
 
 ### Interakcje z talentami
 
@@ -52,21 +48,11 @@ Na potrzeby talentów test **Poznawania Motywacji** traktowany jest jako **Knowl
 ## Poznawanie Motywacji jako część testów społecznych
 
 Podczas wykonywania testów społecznych zdobyte symbole można wykorzystać do częściowego rozpoznania Motywacji celu.
-- **Triumph** lub **2 Advantage**  
-  Wybierz **Strength** albo **Flaw** celu i uzyskaj informacje na jej temat.
-- **Triumph** lub **3 Advantage**  
-  Wybierz **Desire** albo **Fear** celu i uzyskaj informacje na jej temat.
+- #Triumph / #Advantage #Advantage: Wybierz **Strength** albo **Flaw** celu i uzyskaj informacje na jego temat.
+- #Triumph / *#Advantage #Advantage #Advantage:  Wybierz **Desire** albo **Fear** celu i uzyskaj informacje na jego temat.
 
 ## Wpływ znajomości Motywacji na testy społeczne
-
-### Strength / Flaw
-Jeżeli postać zna istotną **Siłę** lub **Wadę** celu i odpowiednio ją wykorzystuje, może otrzymać:
-- **1 Boost die**
-- albo spowodować **1 Setback die**
-
-### Desire / Fear
-Jeżeli postać zna istotne **Pragnienie** lub **Lęk** celu i umiejętnie odwołuje się do niego w scenie, może otrzymać:
-- **2 Boost dice**
-- albo spowodować **2 Setback dice**
+- **Strength / Flaw**: Jeżeli postać zna istotną **Siłę** lub **Wadę** celu i odpowiednio ją wykorzystuje, może otrzymać #Boost lub dodać celowi #Setback
+- ** Desire / Fear**: Jeżeli postać zna istotne **Pragnienie** lub **Lęk** celu i umiejętnie odwołuje się do niego w scenie, może otrzymać #Boost #Boost lub dodać celowi #Setback  #Setback
 
 Ostateczna decyzja o przyznaniu kości należy do MG i zależy od przebiegu sceny.
