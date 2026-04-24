@@ -26,11 +26,11 @@ W trakcie rozgrywki postać może spróbować rozpoznać Motywację innej postac
 
 ### Test Poznawania Motywacji
 
-1. Wybierz jedną z czterech Motywacji celu.
-1. Jeśli wybrana Motywacja to **Desire** lub **Fear**, trudność testu zostaje **zupgrade’owana**.
-1. Wykonaj przeciwstawny test:  
+- Wybierz jedną z czterech Motywacji celu.
+- Jeśli wybrana Motywacja to **Desire** lub **Fear**, trudność testu zostaje **zupgrade’owana**.
+- Wykonaj przeciwstawny test:  
    **Perception vs Discipline**
-1. Wynik testu rozpatruje się podobnie jak **Knowledge Check**.
+- Wynik testu rozpatruje się podobnie jak **Knowledge Check**.
 
 ### Interpretacja wyników
 - Im więcej **sukcesów**, tym dokładniejsze informacje postać uzyskuje o wybranej Motywacji.
