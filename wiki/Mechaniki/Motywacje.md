@@ -3,7 +3,7 @@
 W kampanii używane są **Motywacje** zgodnie z zasadami z **Genesys Core Rulebook**.  
 Poniżej znajduje się skrócony opis ich działania oraz sposobu użycia w tej kampanii.
 
-> Jeśli chcesz przeczytać pełne zasady źródłowe, zobacz: **Genesys Core, s. 46**
+> Jeśli chcesz przeczytać pełne zasady źródłowe, zobacz: **[Genesys Core, s. 46](https://online.anyflip.com/afeku/bsys/mobile/index.html)**
 
 ## Czym są Motywacje?
 
@@ -11,10 +11,10 @@ Motywacje opisują najważniejsze wewnętrzne siły napędowe postaci: jej cele,
 
 ## Cztery filary Motywacji
 
-- [[mechaniki/motywacje/desire|Desire — Pragnienie]]: Opisuje to, czego postać najbardziej chce i do czego dąży.
-- [[mechaniki/motywacje/fear|Fear — Lęk]]:Opisuje to, czego postać najbardziej się obawia i czego stara się uniknąć.
-- [[mechaniki/motywacje/strength|Strength — Siła]]: Opisuje najmocniejszą cechę charakteru postaci.
-- [[mechaniki/motywacje/flaw|Flaw — Wada]]: Opisuje słabość charakteru, która najczęściej sprowadza na postać problemy.
+- [[Mechaniki/Motywacje/Desire|Desire — Pragnienie]]: Opisuje to, czego postać najbardziej chce i do czego dąży.
+- [[Mechaniki/Motywacje/Fear|Fear — Lęk]]:Opisuje to, czego postać najbardziej się obawia i czego stara się uniknąć.
+- [[mechaniki/Motywacje/Strength|Strength — Siła]]: Opisuje najmocniejszą cechę charakteru postaci.
+- [[mechaniki/Motywacje/Flaw|Flaw — Wada]]: Opisuje słabość charakteru, która najczęściej sprowadza na postać problemy.
 
 ## Używanie Motywacji w grze
 
