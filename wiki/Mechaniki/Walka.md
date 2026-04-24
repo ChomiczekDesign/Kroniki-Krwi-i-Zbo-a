@@ -150,8 +150,6 @@ Walka w Genesys nie opiera się wyłącznie na pytaniu „trafił czy nie”. Ba
 | #Threat #Threat #Threat | - Upadnij na ziemię<br>- Slot inicjatywy używany teraz staje się ostatni w kolejności |
 | #Despair | - Poważna komplikacja; często uszkodzenie broni, trafienie niewłaściwego celu albo inny ciężki zwrot sytuacji |
 
-![[Wykorzystanie Adventage i Threat w walce]]
-
 ### Critical Injuries i qualities broni
 
 Część wydatków #Advantage i #Triumph może też służyć do:
