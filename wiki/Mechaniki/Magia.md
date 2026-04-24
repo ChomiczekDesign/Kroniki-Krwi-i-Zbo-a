@@ -24,6 +24,10 @@ Każde zaklęcie posiada:
 
 Bazowa trudność zaklęcia jest stała. Modyfikatory zwiększają lub zmniejszają końcową trudność zgodnie z opisem danego czaru.
 
+### Ochrona przed magią
+- Gdy zaklęcie jest wymierzone bezpośrednio w cel, trudność testu rzucenia zaklęcia zostaje **zupgrade’owana o liczbę równą wartości Discipline celu**.
+- Reprezentuje to zdolność celu do przeciwstawienia się magii siłą woli, skupieniem oraz wewnętrzną odpornością na nadnaturalny wpływ.
+
 ## Rozwój zaklęć
 
 Zaklęcia rozwijają się rangami tak jak inne umiejętności.
