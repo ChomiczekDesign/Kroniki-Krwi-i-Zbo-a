@@ -18,14 +18,40 @@ Motywacje opisują najważniejsze wewnętrzne siły napędowe postaci: jej cele,
 
 ## Używanie Motywacji w grze
 
-Motywacje pomagają graczom podejmować decyzje zgodne z charakterem postaci, a MG wykorzystywać cele, lęki, siły i wady bohaterów do tworzenia scen, konfliktów i relacji.
+Motywacje są praktycznym narzędziem zarówno dla graczy, jak i dla Mistrza Gry. Pomagają podejmować decyzje zgodne z charakterem postaci, budować bardziej wyraziste sceny oraz tworzyć osobiste wątki, które wzmacniają główną fabułę kampanii.
+
+### Dla graczy
+
+Dla gracza Motywacje są swego rodzaju **instrukcją obsługi postaci**. Pokazują, co bohater chce osiągnąć, czego się boi, co jest jego najmocniejszą stroną i jaka wada najczęściej sprowadza na niego problemy.
+
+Motywacje można wykorzystywać na kilka sposobów:
+
+- **Decyzje** — gdy nie wiesz, co postać powinna zrobić, spójrz przede wszystkim na jej **Pragnienie** i **Lęk**. To one najczęściej wskazują kierunek działania.
+- **Odgrywanie słabości** — świadomie pozwól, by **Wada** czasem utrudniała postaci życie, prowadziła do błędów albo komplikowała relacje.
+- **Sceny bohaterstwa** — pokaż, jak **Siła** pozwala bohaterowi podnieść się po porażce, zachować godność albo stanąć naprzeciw własnemu **Lękowi**.
+- **Komunikacja z MG** — Motywacje są świetnym sposobem na sygnalizowanie, jakie wątki chcesz widzieć w kampanii.  
+  > Na przykład:  
+  > *„Moje Pragnienie to Sprawiedliwość — chciałbym, żeby w kampanii pojawił się przeciwnik, który tę sprawiedliwość wypacza.”*
+
+Dobrze dobrane Motywacje pomagają nie tylko w odgrywaniu postaci, ale też w budowaniu scen, które są dla niej naprawdę znaczące.
+
+### Dla Mistrza Gry
+
+Dla MG Motywacje są użytecznym narzędziem do tworzenia scen, relacji i długofalowych wątków postaci.
+
+Można traktować je jako:
+
+- **Generator scen** — twórz sytuacje, w których bohater musi wybierać między **Pragnieniem** a **Lękiem**, albo między tym, co wspiera jego **Siła**, a tym, do czego pcha go **Wada**.
+- **Paliwo do scen społecznych** — NPC mogą wpływać na bohaterów przez ich Motywacje, a bohaterowie mogą odkrywać Motywacje NPC, by zdobyć przewagę w negocjacjach, oszustwie, zastraszaniu lub perswazji.
+- **Oś kampanii** — obok zewnętrznej fabuły, takiej jak misje, intrygi, polityka czy potwory, Motywacje pozwalają prowadzić również **wewnętrzne wątki postaci**: spełnianie Pragnień, konfrontowanie Lęków, uleganie Wadom albo ich przełamywanie.
+
+Dzięki temu Motywacje nie są tylko opisem charakteru, ale realnym narzędziem do prowadzenia bardziej angażującej i osobistej kampanii.
 
 ## Poznawanie Motywacji
 
 W trakcie rozgrywki postać może spróbować rozpoznać Motywację innej postaci.
 
 ### Test Poznawania Motywacji
-
 - Wybierz jedną z czterech Motywacji celu.
 - Jeśli wybrana Motywacja to **Desire** lub **Fear**, trudność testu zostaje **zupgrade’owana**.
 - Wykonaj przeciwstawny test: **Perception vs Discipline**
