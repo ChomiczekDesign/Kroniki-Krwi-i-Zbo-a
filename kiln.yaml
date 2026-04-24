@@ -1,0 +1,4 @@
+name: "Kroniki Krwi i Zboża"
+url: "https://chomiczekdesign.github.io/kroniki-krwi-i-zbo-a"
+input: "./wiki"
+output: "./public"
