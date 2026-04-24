@@ -97,36 +97,11 @@ Jeśli po skasowaniu symboli w wyniku zostanie co najmniej **1 #Success**, atak 
 
 ## Trafienie i obrażenia
 
-Udany atak oznacza, że cel został trafiony. Następnie wylicza się obrażenia.
-
-Podstawowa zasada:
-
-**obrażenia broni + dodatkowe #Success = obrażenia zadane przed redukcją**
-
-Następnie cel zmniejsza te obrażenia o swoją **Soak**.
-
-Dopiero pozostała wartość trafia w jego **Wound Threshold**.
-
-## Soak
-
-**Soak** reprezentuje odporność celu na obrażenia. Wynika zwykle z:
-- wytrzymałości postaci,
-- pancerza,
-- innych efektów ochronnych.
-
-Soak zmniejsza większość zwykłych obrażeń otrzymanych z trafienia.
-
-## Wounds i Strain
-
-W walce istotne są dwa główne zasoby:
-
-### Wounds
-Reprezentują fizyczne obrażenia, rany i wyczerpanie ciała.
-
-### Strain
-Reprezentuje zmęczenie, napięcie, stres, przeciążenie i koszt wysiłku.
-
-Postać może otrzymywać zarówno **Wounds**, jak i **Strain**, zależnie od efektu ataku, zdolności albo sytuacji.
+- Udany atak oznacza, że cel został trafiony. Następnie wylicza się obrażenia.
+- Zadawanie obrażeń:
+  - **obrażenia broni + dodatkowe #Success = obrażenia zadane przed redukcją**
+  - Następnie cel zmniejsza te obrażenia o swoją **[[SOAK]]**.
+  - Dopiero pozostała wartość trafia w jego **[[Wound Threshold]]**.
 
 ## #Advantage i #Threat w walce
 
