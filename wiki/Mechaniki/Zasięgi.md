@@ -85,12 +85,11 @@ Zasięgi nie są sztywną miarą w krokach czy metrach. To narzędzie do szybkie
 
 ## Zasięg a broń
 
-Broń i zdolności w Genesys zwykle wskazują, na jaki zasięg mogą oddziaływać. Zasięg mówi więc nie tylko *gdzie* stoi cel, ale także *czy w ogóle można go skutecznie dosięgnąć*.
-
-Przykładowo:
-- **broń biała** działa na **Engage**,
-- **rzuty** najczęściej mieszczą się w **Short**,
-- **krótki łuk** dobrze odpowiada **Medium**,
-- **długi łuk** dobrze odpowiada **Long**.
-
-Ostateczna interpretacja zawsze zależy od MG, konkretnej broni, warunków sceny i charakteru działania.
+| Zasięg | Trudność |
+|---|---|
+| **Engaged** (Melee) | #Difficulty #Difficulty |
+| **Engaged** (Ranged) | #Difficulty #Difficulty |
+| **Short** | #Difficulty |
+| **Medium** | #Difficulty #Difficulty |
+| **Long** | #Difficulty #Difficulty #Difficulty |
+| **Extreme** | #Difficulty #Difficulty #Difficulty #Difficulty |
