@@ -21,7 +21,7 @@ SUPPORTED_TAGS = [
     "Threat",
     "Triumph",
     "Despair",
-]
+]border:
 
 CURRENT_COLOR_TAGS = {
     "Success",
@@ -232,7 +232,7 @@ def build_die_html(tag_name: str, data_uri: str) -> str:
         f'title="{tag_name}" '
         f'style="display:inline-flex;align-items:center;justify-content:center;'
         f'width:1em;height:1em;vertical-align:-0.12em;line-height:0;'
-        f'border:0.06em solid currentColor;border-radius:0.16em;box-sizing:border-box;'
+        f'border:0.04em solid currentColor;border-radius:0.16em;box-sizing:border-box;'
         f'color:inherit;">{svg}</span>'
     )
 
