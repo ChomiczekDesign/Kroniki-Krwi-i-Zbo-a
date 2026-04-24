@@ -55,7 +55,7 @@ ALIASES = {
 # Kości jako Unicode
 DICE_STYLES = {
     "boost": ("■", "#56A7E9", "0.95em"),
-    "setback": ("◻", "#f5f5f5", "0.95em"),
+    "setback": ("◻", "#f5f5f5", "1.05em"),
     "ability": ("⬧", "#44D433", "1.00em"),
     "difficulty": ("⬧", "#A06BFF", "1.00em"),
     "proficiency": ("⬣", "#FFF041", "1.05em"),
