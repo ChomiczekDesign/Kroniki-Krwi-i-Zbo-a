@@ -35,7 +35,7 @@ jobs:
 
       - name: Build site
         run: |
-          ./kiln generate --input ./wiki --output ./public --url "https://chomiczekdesign.github.io/Kroniki-Krwi-i-Zbo-a"
+          ./kiln generate --input ./wiki --output ./public --url "https://chomiczekdesign.github.io/kroniki-krwi-i-zbo-a"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
