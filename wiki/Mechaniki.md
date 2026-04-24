@@ -7,7 +7,7 @@ Kroniki rozgrywane są na systemie **[Genesys](https://online.anyflip.com/afeku/
 - [[Podstawy Mechaniki]
 - [[Lista Umiejętności]]
 - [[Motywacje]]
-  - [[Desire]
+  - [[Desire]]
   - [[Fear]]
   - [[Flaw]]
   - [[Strength]]
