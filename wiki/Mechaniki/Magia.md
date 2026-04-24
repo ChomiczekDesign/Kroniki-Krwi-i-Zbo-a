@@ -28,6 +28,11 @@ Bazowa trudność zaklęcia jest stała. Modyfikatory zwiększają lub zmniejsza
 - Gdy zaklęcie jest wymierzone bezpośrednio w cel, trudność testu rzucenia zaklęcia zostaje **zupgrade’owana o liczbę równą wartości Discipline celu**.
 - Reprezentuje to zdolność celu do przeciwstawienia się magii siłą woli, skupieniem oraz wewnętrzną odpornością na nadnaturalny wpływ.
 
+## Koncentracja
+- Niektóre efekty w **Genesys** wymagają **koncentracji**. Oznacza to, że aby utrzymać dany efekt, postać musi poświęcać na to uwagę w trakcie kolejnych tur.
+- Mechanicznie koncentracja zwykle wymaga wykonania manewru **Concentrate** w swojej turze. Jeśli postać nie wykona tego manewru, efekt wymagający koncentracji kończy się zgodnie z decyzją MG i opisem danej zdolności lub zaklęcia.
+- Koncentracja oznacza też, że postać jest zaangażowana w podtrzymywanie efektu — MG może uznać, że silne rozproszenie, utrata przytomności, incapacitation lub inne poważne zakłócenia przerywają koncentrację automatycznie.
+
 ## Rozwój zaklęć
 
 Zaklęcia rozwijają się rangami tak jak inne umiejętności.
