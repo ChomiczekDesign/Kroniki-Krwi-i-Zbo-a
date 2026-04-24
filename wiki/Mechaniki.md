@@ -5,4 +5,4 @@ Kroniki rozgrywane sąna systemie **Genesys**
 
 ## Sekcje
 - [[Lista Umiejętności]]
-- [[Magia]]
+- [[Mechaniki/Magia|Magia i  Czry]]
