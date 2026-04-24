@@ -5,3 +5,4 @@ Kroniki rozgrywane sąna systemie **Genesys**
 
 ## Sekcje
 - [[Lista Umiejetnosci|Lista Umiejętności]]
+- [[Lista Umiejętności]]
