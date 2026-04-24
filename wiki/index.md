@@ -1,8 +1,3 @@
----
-title: Kroniki Krwi i Zboża
-site: Kroniki Krwi i Zboża
----
-
 # Kroniki Krwi i Zboża
 
 Witaj w wiki **Kronik Krwi i Zboża** — kampanii osadzonej w słowiańsko-inspirowanym świecie fantasy opartym o system **Genesys**.
