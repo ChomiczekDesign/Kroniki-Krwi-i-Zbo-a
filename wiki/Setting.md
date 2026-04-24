@@ -8,3 +8,4 @@
 - obok ludzi funkcjonują też inne ludy, kultury i byty, a historia świata pełna jest upadłych cywilizacji i dawnych katastrof.
 
 ## Sekcje
+- [[Setting/Magia|Magia i Czary]]
