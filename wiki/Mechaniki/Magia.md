@@ -12,7 +12,13 @@ Zaklęcie można zdobyć na jeden z poniższych sposobów:
 - wykupić za EXP podczas tworzenia postaci jako umiejętność karierową,
 - zdobyć fabularnie w trakcie kampanii.
 
-Po zdobyciu zaklęcia postać wybiera, z jakiego **rodzaju magii** korzysta dany czar.
+Po zdobyciu zaklęcia postać wybiera, z jakiej **tradycji magii** korzysta dany czar. Po dokładne zasady tworzenia zaklęć, przejdź tutaj → [[Budowanie Zaklęć]]
+
+### Rozwój zaklęć
+
+Zaklęcia rozwijają się rangami tak jak inne umiejętności.
+
+Za każdym razem, gdy postać zdobywa nową rangę w danym zaklęciu, może wybrać, by **rozszerzyć efekt czaru o 1 nową opcję lub wymienić istniejącą na inną,** dostępną dla tego czaru.
 
 ## Test zaklęcia
 
@@ -29,12 +35,6 @@ Bazowa trudność zaklęcia jest stała. Modyfikatory zwiększają lub zmniejsza
 - Reprezentuje to zdolność celu do przeciwstawienia się magii siłą woli, skupieniem oraz wewnętrzną odpornością na nadnaturalny wpływ.
 
 ![[Koncentracja]]
-
-## Rozwój zaklęć
-
-Zaklęcia rozwijają się rangami tak jak inne umiejętności.
-
-Za każdym razem, gdy postać zdobywa nową rangę w danym zaklęciu, może wybrać, by **rozszerzyć efekt czaru o 1 nową opcję lub wymienić istniejącą na inną,** dostępną dla tego czaru.
 
 ## Komponenty
 
