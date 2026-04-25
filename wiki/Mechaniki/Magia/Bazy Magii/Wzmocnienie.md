@@ -14,7 +14,7 @@ Bazowa trudność testu wynosi **Average** (#Difficulty #Difficulty).
 - **Increase Range** (**+ #Difficulty**): Zwiększ zasięg zaklęcia o 1 kategorię [[Zasięgi|zasięgu]].  Opcję tę można wybrać wielokrotnie.
 - **Additional Target** (**+ #Difficulty #Difficulty**):  Zaklęcie oddziałuje na 1 dodatkowy cel znajdujący się w zasięgu zaklęcia.  Dodatkowo możesz wydać #Advantage, aby objąć zaklęciem 1 dodatkowy cel za każde wydane #Advantage.
 
-## Efekty dostępne podczas budowania zaklęcia:
+## Efekty dostępne podczas [[Budowanie Zaklęć|budowania zaklęcia]]:
 
 ### Vigor Sacrifice (-#Difficulty #Difficulty)
 - To zaklęcie czerpie z fizycznych rezerw czarującego, aby wzmocnić cel. Czarujący zmniejsza swój **[[Strain#Strain Threshold|Strain Threshold]]** o 2. Kara ta trwa do końca bieżącego starcia.
