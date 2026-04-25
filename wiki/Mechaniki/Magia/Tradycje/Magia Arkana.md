@@ -1,6 +1,6 @@
 # Magia Arkana - Arcana
 - Charakterystyka: **Intellect**
-- Wymagany komponent: Focus
+- Wymagany komponent: **Focus**
 
 Magia Arkana opiera się na wiedzy, formule i świadomym kształtowaniu magicznych struktur. Jej zaklęcia są efektem nauki, praktyki i precyzyjnego stosowania ustalonych zasad.
 
