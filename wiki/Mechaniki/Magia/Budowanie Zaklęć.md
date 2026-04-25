@@ -5,8 +5,8 @@ Każde zaklęcie jest indywidualnie zbudowaną formą magii. Choć dwa zaklęcia
 ### Elementy zaklęcia
 
 Każde zaklęcie składa się z następujących elementów:
-- **Bazowej Magii**: Podstawowy typ zaklęcia, taki jak [[Wzmocnienie]], [[Atakujące]] i inne.
-- **Tradycja magii** : Tradycja, z której korzysta zaklęcie: [[Magia Pierwotna|Pierwotna]], [[Magia Werbalna|Werbalna]] lub [[Magia Arkana|Arkana]]
+- **Bazowej Magii**: typ zaklęcia, taki jak [[Wzmocnienie]], [[Atakujące]] i inne.
+- **Tradycja magii**, z której korzysta zaklęcie: [[Magia Pierwotna|Pierwotna]], [[Magia Werbalna|Werbalna]] lub [[Magia Arkana|Arkana]]
 - **Zawsze dostępne opcje**: 
    - Są to opcje, które czarujący może dołączać do zaklęcia przy każdym rzuceniu, o ile zdecyduje się ponieść ich koszt w trudności.  
    - Przykładem może być **Increase Range** albo **Additional Target**.  
