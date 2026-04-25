@@ -17,7 +17,7 @@ Bazowa trudność testu wynosi **Average** (#Difficulty #Difficulty).
 ## Efekty dostępne podczas budowania zaklęcia:
 ## Efekty zaklęcia
 
-<div style="width: 100vw; margin-left: calc(50% - 50vw); padding: 0 2rem; box-sizing: border-box; overflow-x: auto;">
+<div style="width: 120%; margin-left: -10%; overflow-x: auto;">
 
 | Nazwa efektu | Opis |
 |---|---|
