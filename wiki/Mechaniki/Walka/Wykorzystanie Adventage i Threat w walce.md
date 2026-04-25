@@ -1,7 +1,7 @@
 | Koszt | Efekt |
 |---|---|
 | <span style="white-space: nowrap;">#Advantage / #Triumph</span>  | - Odzyskaj 1 strain<br>- Daj #Boost do następnego testu sojusznika<br>- Przedmiot będący celem ataku otrzymuje **Lekkie Uszkodzenie**. Jeśli jest to **Improvised Weapon**, przedmiot rozpada się i staje się nieodzyskiwany. |
-| #<span style="white-space: nowrap;">Advantage #Advantage / #Triumph</span>  | - Wykonaj natychmiast darmowy manewr<br>- Przedmiot będący celem ataku otrzymuje **Ciężkie Uszkodzenie**.<br>- Daj #Setback do następnego testu celu<br>- Daj #Boost do następnego testu dowolnego sojusznika |
+| <span style="white-space: nowrap;">#Advantage #Advantage / #Triumph</span>  | - Wykonaj natychmiast darmowy manewr<br>- Przedmiot będący celem ataku otrzymuje **Ciężkie Uszkodzenie**.<br>- Daj #Setback do następnego testu celu<br>- Daj #Boost do następnego testu dowolnego sojusznika |
 | <span style="white-space: nowrap;">#Advantage #Advantage #Advantage / #Triumph</span>  | - Zaneguj defensywne bonusy celu do końca rundy<br>- Przedmiot będący celem ataku otrzymuje **Krytyczne Uszkodzenie**.<br>- Zignoruj karę środowiskową do końca następnej tury<br>- Zamiast zadawać obrażenia lub strain, unieszkodliw cel w sposób sytuacyjny<br>- Zyskaj +1 melee lub ranged defense do końca następnej tury<br>- Spraw, by cel upuścił trzymaną broń |
 | <span style="white-space: nowrap;">#Advantage #Advantage #Advantage #Advantage / #Triumph</span>  | - Przedmiot będący celem ataku zostaje **Zniszczony** |
 | <span style="white-space: nowrap;">#Triumph</span>  | - Zadaj 1 Critical Injury albo aktywuj silny dodatkowy efekt<br>- Upgrade trudność następnego testu celu<br>- Upgrade następnego testu sojusznika |
