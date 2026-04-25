@@ -10,14 +10,14 @@ Każde zaklęcie składa się z następujących elementów:
    - [[Magia Pierwotna]]
    - [[Magia Werbalna]]
    - [[Magia Arkana]] 
-4. **Zawsze dostępne opcje**: 
+-. **Zawsze dostępne opcje**: 
    - Są to opcje, które czarujący może dołączać do zaklęcia przy każdym rzuceniu, o ile zdecyduje się ponieść ich koszt w trudności.  
    - Przykładem może być **Increase Range** albo **Additional Target**.  
    - Opcje te nie są stałą częścią zaklęcia — mogą być włączane lub pomijane przy każdym użyciu.
-5. **Efekty zaklęcia**  
+- **Efekty zaklęcia**  
    - Są to trwałe modyfikacje wybrane podczas budowania zaklęcia. Każdy taki efekt zmienia działanie czaru i staje się jego stałą częścią.  
    - W przeciwieństwie do zawsze dostępnych opcji, efektów tych nie włącza się i nie wyłącza przy rzucaniu — jeśli zostały wybrane, są zawsze aktywne podczas używania danego zaklęcia.
-6. **Nazwa zaklęcia** : Ostateczna, fabularna nazwa nadana zaklęciu przez postać.
+-  **Nazwa zaklęcia** : Ostateczna, fabularna nazwa nadana zaklęciu przez postać.
 
 ---
 
@@ -25,8 +25,8 @@ Każde zaklęcie składa się z następujących elementów:
 
 Gdy postać zdobywa nowe zaklęcie, buduje je według poniższych zasad:
 
-<ol>
-  <li>Wybiera [[Bazy Magii|Bazową Magię]] z listy</li>
+<ol style="list-style-type: decimal; margin-left: 2em; padding-left: 1.5em;">
+  <li>Wybiera [[Bazy Magii|Bazową Magię]] z listy dostępnej dla używanego rodzaju magii.</li>
   <li>Wybiera [[Tradycje|Tradycję magii]], z której zaklęcie korzysta.</li>
   <li>Może następnie wybrać <strong>0 lub więcej efektów zaklęcia</strong> z tabeli efektów dostępnych dla danego Bazowego Efektu.</li>
   <li>Na końcu nadaje zaklęciu własną <strong>nazwę</strong>.</li>
