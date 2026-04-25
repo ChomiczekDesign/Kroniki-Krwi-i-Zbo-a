@@ -91,8 +91,6 @@ Następnie buduje pulę kości zgodnie z zasadami testu:
 
 Jeśli po skasowaniu symboli w wyniku zostanie co najmniej **1 #Success**, atak trafia.
 
-### Trudność ataku według [[Zasięgi|zasięgu]]
-
 ![[Zasięgi#Zasięg a broń]]
 
 ## Trafienie i obrażenia
@@ -100,8 +98,8 @@ Jeśli po skasowaniu symboli w wyniku zostanie co najmniej **1 #Success**, atak 
 - Udany atak oznacza, że cel został trafiony. Następnie wylicza się obrażenia.
 - Zadawanie obrażeń:
   - **obrażenia broni + dodatkowe #Success = obrażenia zadane przed redukcją**
-  - Następnie cel zmniejsza te obrażenia o swoją **[[SOAK]]**.
-  - Dopiero pozostała wartość trafia w jego **[[Wounds#Wound Threshold|Wound Threshold]]**.
+  - Następnie cel zmniejsza te obrażenia o **[[SOAK]]**.
+  - Dopiero pozostała wartość zadaje **[[Wounds]]**.
 
 ## #Advantage i #Threat w walce
 
