@@ -15,8 +15,7 @@ Kroniki rozgrywane są na systemie **[Genesys](https://online.anyflip.com/afeku/
     - [[Magia Arkana]]
     - [[Magia Pierwotna]]
     - [[Magia Werbalna]]
-  - Bazy Magii:
-    - [[Wzmocnienie]] 
+  - Bazy Magii: <br>[[Atakowanie]], [[Bariera]], [[Klątwa]], [[Przywołanie]], [[Uleczenie]], [[Wzmocnienie]]
 
 ## [[Podstawy Mechaniki|Podstawy Systemu]]
 - [[Lista Umiejętności]]
