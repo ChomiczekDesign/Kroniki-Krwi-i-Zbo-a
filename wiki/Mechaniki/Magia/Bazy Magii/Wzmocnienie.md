@@ -16,15 +16,15 @@ Bazowa trudność testu wynosi **Average** (#Difficulty #Difficulty).
 
 ## Efekty dostępne podczas budowania zaklęcia:
 
-- **Vigor Sacrifice (-#Difficulty #Difficulty)**
+### **Vigor Sacrifice (-#Difficulty #Difficulty)**
   - To zaklęcie czerpie z fizycznych rezerw czarującego, aby wzmocnić cel. Czarujący zmniejsza swój **[[Strain#Strain Threshold|Strain Threshold]]** o 2. Kara ta trwa do końca bieżącego starcia.
   - Jeśli **Wzmocnienie** jest nadal utrzymywane, gdy starcie się kończy, kara przechodzi na kolejne starcia i kończy się dopiero wraz z końcem starcia, w którym czarujący przestaje utrzymywać zaklęcie.
   - **Epitety:** Krwiomocny, Żyłowy, Wycieńczający, Żertwny, Ofiarny, Wysysający
-- **Weaken (-#Difficulty)**
+### **Weaken (-#Difficulty)**
   - Cel dodaje do wykonywanych testów jedynie #Boost zamiast zwiększać pulę o #Ability.
   - Nie może być użyte razem z **Strengthen**.
   - **Epitety:** Przygasły, Blady, Wątły, Jałowy, Wypłowiały, Zwiędły
-- **Bestow Expertise (+#Difficulty)**
+### **Bestow Expertise (+#Difficulty)**
   - Dodaj celowi +1 rangę wybranej umiejętności na czas trwania Wzmocnienia
   - Możesz wybrać tylko taką umiejętność, w której czarujący ma wykupioną przynajmniej 1 rangę.
   - **Epitety:** Mistrzowski, Biegły, Rzemieślniczy, Zaprawiony, Wprawny, Nauczony
