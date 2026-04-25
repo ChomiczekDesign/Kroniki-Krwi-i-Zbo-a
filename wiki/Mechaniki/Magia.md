@@ -52,8 +52,8 @@ Zaklęcia mogą wymagać jednego lub kilku poniższych komponentów:
 
 W kampanii funkcjonują trzy główne rodzaje magii:
 - [[Magia Pierwotna]]
-- [[Magia Werbalana]]
-- [[Magia Arcana]]
+- [[Magia Werbalna]]
+- [[Magia Arkana]]
 
 ## Koszt rzucania zaklęć
 
