@@ -1,6 +1,6 @@
 # Dorzecze
 
-![[Wizualizacja - Dorzecze.pmg]]
+![[Wizualizacja - Dorzecze.png]]
 
 Dorzecze to wielka, dzika kraina rzek, sporadycznych jezior, wielkich borów i starych lasów. Od południa opiera się o **[[Milczące Góry]]**, od zachodu o wąski przesmyk między górami a morzem, od północy ogranicza go morze, które dla ludzi Dorzecza nie ma nawet własnej nazwy, a od południowego wschodu przechodzi w wyżynne ziemie zwane **[[Wielką Bramą]]**.
 
