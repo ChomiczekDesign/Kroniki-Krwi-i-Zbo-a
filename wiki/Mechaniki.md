@@ -4,7 +4,7 @@ Tu znajdziesz zasady używane w kampanii.
 Kroniki rozgrywane są na systemie **[Genesys](https://online.anyflip.com/afeku/bsys/mobile/index.html)**
 
 ## Przydatne linki
-- - [[Wykorzystanie Adventage i Threat w walce|Tabelka wykorzystywania Przewag i Niedogodności]]
+- [[Wykorzystanie Adventage i Threat w walce|Tabelka wykorzystywania Przewag i Niedogodności]]
 
 
 ## Systemy i HB
