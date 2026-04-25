@@ -7,7 +7,7 @@ Zaklęcia tego typu służą do wzmacniania istot żywych i czasowego zwiększan
 - Czarujący wybiera 1 cel, z którym znajduje się w zasięgu **Engaged** (celem może być również on sam), a następnie wykonuje test odpowiedniej umiejętności magicznej.  
 Bazowa trudność testu wynosi **Average** (#Difficulty #Difficulty).
 - Jeśli test zakończy się sukcesem, do końca czasu trwania zaklęcia cel dodaje #Ability do puli każdego wykonywanego przez siebie testu umiejętności.
-- Bazowo zaklęcie trwa do **końca następnej tury czarującego**. Czas trwania można wydłużyć, wykonując manewr [[Magia#Koncentracja|Koncentracji]].
+- Bazowo zaklęcie trwa do **końca następnej tury czarującego**. Czas trwania można wydłużyć, wykonując manewr [[Mechaniki/Magia#Koncentracja|Koncentracji]].
 - Postać nie może znajdować się jednocześnie pod wpływem więcej niż jednego zaklęcia **Wzmocnienia**.
 
 ## Zawsze dostępne opcje
