@@ -13,7 +13,7 @@ Zaklęcia tego typu służą do bezpośredniego zadawania obrażeń, wywoływani
 
 ## Zawsze dostępne opcje
 - **Increase Range** (**+ #Difficulty**)  
-  Zwiększ zasięg zaklęcia o 1 kategorię [[Zasięgi|zasięgu]]. Opcję tę można wybrać wielokrotnie.
+  Zwiększ zasięg zaklęcia o 1 zakres [[Zasięgi|zasięgu]]. Opcję tę można wybrać wielokrotnie.
 - **Close Combat** (**+ #Difficulty**)  
   Zaklęcie może zostać użyte w zasięgu **[[Zasięgi|Engaged]]**.
 
@@ -64,7 +64,7 @@ Zaklęcia tego typu służą do bezpośredniego zadawania obrażeń, wywoływani
 
 ### Manipulative (+#Difficulty)
 - **Tylko [[Magia Arkana]].**
-- Jeśli atak trafi, możesz wydać 1 #Advantage, aby przesunąć cel o maksymalnie 1 zakres [[Zasięgi|zasięgu]] w dowolnym kierunku.
+- Jeśli atak trafi, możesz wydać #Advantage, aby przesunąć cel o maksymalnie 1 zakres [[Zasięgi|zasięgu]] w dowolnym kierunku.
 - **Epitety:** Wiatrowy, Zdmuchujący, Zawiejny
 
 ### Non-Lethal (+#Difficulty)
