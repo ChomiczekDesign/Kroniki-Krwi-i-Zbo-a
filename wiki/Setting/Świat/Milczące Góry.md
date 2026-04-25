@@ -1,5 +1,7 @@
 # Milczące Góry
 
+![[Mapa - Milczące Góry.png]]
+
 Milczące Góry są największym łańcuchem górskim na kontynencie. Układają się w kształt litery **V**, obejmując od południa i zachodu [[Dorzecze]]. Od wschodu stykają się z **[[Wielką Bramą]]**, a wzdłuż ich południowo-wschodnich krańców ciągnie się **[[Kraina Jezior]]**.
 
 To nie są zwykłe góry. Są dziwne nawet jak na góry. Nie ma tu echa. Głos nie wraca ze skał, wołanie urywa się szybciej, niż człowiek się spodziewa, a nawet odgłos kroków zdaje się ginąć zbyt prędko. Same góry sprawiają wrażenie, jakby tłumiły i połykały dźwięki. Ich cisza nie jest spokojna — jest ciężka, obca i niepokojąca, jakby kamień sam nie chciał oddawać tego, co raz usłyszał.
@@ -85,3 +87,5 @@ Tylko czasem wracają opowieści o starych wejściach zasypanych kamieniem, o ś
 Milczące Góry nie są krainą otwartą na człowieka czy orka. To miejsce surowe nawet tam, gdzie daje żyć, i martwe tam, gdzie człowiek chciałby szukać przejścia. A jednak jest w nich coś, co przyciąga: stare kopalnie, odcięte doliny, legendy o pradawnych miastach, tajemnicze kręgi spotkań, stada na wysokich halach, wojny klanów, wąskie przełęcze i cisza, która wydaje się bardziej znacząca od słów.
 
 To ziemia, w której można znaleźć srebro, stary miecz, przysięgę, grób, drogę przez góry albo własną śmierć. Czasem wszystko naraz.
+
+![[Wizualizacja - Milczące Góry.png]]
