@@ -38,7 +38,7 @@ Zaklęcia tego typu służą do leczenia ran, usuwania dolegliwości i przywraca
 - Zamiast tego zaklęcie leczy [[Strain]] w tej samej ilości, w jakiej normalnie leczyłoby [[Wounds]].
 - **Epitety:** Ukojący, Oddechowy, Cichnący, Pokrzepiający, Łagodzący
 
-### Clense (+#Difficulty)
+### Cleanse (+#Difficulty)
 - **Tylko [[Magia Pierwotna]].**
 - Wybierz jedną truciznę, chorobę albo inne szkodliwe schorzenie, które obecnie działa na cel.
 - Przy sukcesie cel może natychmiast wykonać test [[Resilience]], aby pozbyć się tej dolegliwości.
