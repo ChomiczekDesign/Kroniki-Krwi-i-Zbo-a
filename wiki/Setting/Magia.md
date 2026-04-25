@@ -16,9 +16,21 @@ Proste formy magii są stosunkowo powszechne.
 
 Magia nie zawsze oznacza spektakularne błyskawice i przemiany rzeczywistości. Często jest czymś przyziemnym, praktycznym i głęboko splecionym z życiem ludzi.
 
+## Nauka magii
+
+Najczęściej magii uczy się **od drugiego człowieka**. Wiedza o czarach, rytuałach i praktykach magicznych jest w większości przekazywana przez mistrza — maga, czarownika, zielarkę, czarodziejkę albo inną osobę, która sama opanowała już daną sztukę. Taka nauka bywa ustna, oparta na pokazie, naśladowaniu i wielokrotnym powtarzaniu, choć czasem wspierają ją także księgi, zapiski albo zbiory formuł.
+
+Wielu słabszych czarujących i ludzi znających zaledwie jeden lub kilka prostych czarów nie zdobyło jednak wiedzy w ramach pełnej nauki u mistrza. Część nauczyła się swoich zaklęć z pieśni zasłyszanych od wędrownych bajarzy, część odkryła je samodzielnie, instynktownie, a część dochodziła do nich przez wielokrotne powtarzanie tej samej czynności, aż nabrała ona magicznego znaczenia. Jest to szczególnie częste u ludzi dobrze dostrojonych do magii, obdarzonych talentem albo szczególną wrażliwością na znaczenie gestu, słowa i rytuału.
+
+Na świecie istnieje niewiele miejsc, w których można uczyć się magii w sposób zorganizowany. W Liorze czarodziejki mają własne uczennice, a czasem prowadzą nawet niewielkie szkółki dla wybranych. Nadal są to jednak małe kręgi nauki — zwykle liczące najwyżej kilkanaście osób, a nie rozbudowane instytucje dostępne dla szerokich rzesz ludzi.
+
+Jednym z nielicznych większych ośrodków nauki magii jest **Uniwersytet Wojskowy w Imperium Merrowingów**, gdzie kształci się magów bojowych. Nawet tam nauka pozostaje wymagająca, a odsetek ludzi, którzy rzeczywiście kończą pełny kurs, nie jest wysoki.
+
+Istnieją również **księgi magiczne**, ale należą one do rzeczy rzadkich. Czasem można natrafić na nie nawet w najbardziej zapomnianych miejscach, lecz wiele z nich jest niepełnych, błędnych albo niskiej jakości. Dobra księga magiczna bywa więc równie cenna jak dobry nauczyciel — a niekiedy trudniejsza do znalezienia.
+
 ## Trzy oblicza magii
 
-Choć praktyk, szkół i tradycji jest wiele, większość znanych form magii można opisać przez trzy główne nurty.
+Choć praktyk i tradycji jest wiele, większość znanych form magii można opisać przez trzy główne nurty.
 
 ### [[Magia Pierwotna]]
 Magia pierwotna, dzika i instynktowna. Wiąże się z naturą, ciałem, odruchem, przetrwaniem i siłami, które nie potrzebują uczonych teorii, by działać. To magia lasu, zwierzęcia, ziemi i tego, co starsze od ludzkich słów.
@@ -36,5 +48,3 @@ Magia nie jest całkowicie oderwana od świata materialnego. Często potrzebuje:
 - gestów,
 - odpowiednich narzędzi,
 - albo składników zakorzenionych w symbolice świata.
-
-Dlatego mag nie tylko „rzuca czar”, ale często **pracuje z tym, co ma znaczenie**: z drewnem, ziarnem, kością, żelazem, miodem, nicią, rdzą, monetą albo skrawkiem przysięgi. Materiał i znaczenie są tu równie ważne jak sama wola czarującego.
