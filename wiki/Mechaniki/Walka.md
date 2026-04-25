@@ -105,11 +105,13 @@ Jeśli po skasowaniu symboli w wyniku zostanie co najmniej **1 #Success**, atak 
 
 Walka w Genesys nie opiera się wyłącznie na pytaniu „trafił czy nie”. Bardzo ważne są także efekty poboczne wynikające z **#Advantage**, **#Threat**, **#Triumph** i **#Despair**
 
-![[Wykorzystanie Adventage i Threat w walce]]
-
 ### Critical Injuries i qualities broni
 
 Część wydatków #Advantage i #Triumph może też służyć do:
 - aktywowania qualities broni,
 - zadania **Critical Injury**: Jeśli broń ma **Critical Rating**, odpowiednia liczba #Advantage pozwala wywołać rzut na obrażenia krytyczne. 
 - uruchomienia specjalnych efektów opisu broni.
+
+![[Wykorzystanie Adventage i Threat w walce]]
+
+
