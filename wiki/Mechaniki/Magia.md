@@ -48,27 +48,12 @@ Zaklęcia mogą wymagać jednego lub kilku poniższych komponentów:
 - **Focus** — czarujący musi używać odpowiedniego narzędzia, instrumentu, księgi, kostura lub innego przedmiotu właściwego dla swojej tradycji.
 - **Materiałowe** — czarujący może zużyć odpowiedni składnik magiczny, aby zasilić zaklęcie.
 
-## Rodzaje magii
+## Tradycje magii
 
 W kampanii funkcjonują trzy główne rodzaje magii:
-
-### [[Magia Pierwotna]]
-- Charakterystyka: **Cunning**
-- Wymagany komponent: **Somatyczny**
-- Magia pierwotna opiera się na instynkcie, naturze oraz bezpośrednim oddziaływaniu na świat.  
-- Podczas rzucania zaklęć magii pierwotnej postać musi spełnić wymóg komponentu **Somatycznego**. W praktyce oznacza to konieczność wykonywania odpowiednich gestów, co zazwyczaj wymaga przynajmniej jednej wolnej ręki.
-
-### [[Magia Werbalna]]
-- Charakterystyka: **Presence**
-- Wymagany komponent: **Werbalny** lub **Instrument**
-- Magia werbalna opiera się na głosie, brzmieniu i obecności czarującego. Jej zaklęcia przyjmują formę słów mocy, pieśni, recytacji, inwokacji oraz innych uporządkowanych form ekspresji dźwiękowej.
-- Aby rzucić zaklęcie magii werbalnej, postać musi być zdolna do wydawania odpowiednich dźwięków. W zależności od konkretnej praktyki może to oznaczać mowę, śpiew, recytację lub użycie instrumentu muzycznego.
-
-### [[Magia Arkana]]
-- Charakterystyka: **Intellect**
-- Wymagany komponent: **Focus**
-- Magia Arkana opiera się na wiedzy, formule i świadomym kształtowaniu magicznych struktur. Jej zaklęcia są efektem nauki, praktyki i precyzyjnego stosowania ustalonych zasad.
-- Aby rzucić zaklęcie magii arkana, postać musi posługiwać się odpowiednim focusem. Najczęściej przyjmuje on formę księgi, kostura, różdżki, tabliczki lub narzędzia rytualnego.
+- [[Magia Pierwotna]]
+- [[Magia Werbalana]]
+- [[Magia Arcana]]
 
 ## Koszt rzucania zaklęć
 
