@@ -5,7 +5,7 @@ Każde zaklęcie jest indywidualnie zbudowaną formą magii. Choć dwa zaklęcia
 ### Elementy zaklęcia
 
 Każde zaklęcie składa się z następujących elementów:
-- **[[Bazy Magii|Bazowej Magii]]**: Podstawowy typ zaklęcia, taki jak [[Wzmocnienie]], [[Atakujące]] i inne.
+- **[[Bazy Magii/|Bazowej Magii]]**: Podstawowy typ zaklęcia, taki jak [[Wzmocnienie]], [[Atakujące]] i inne.
 - **Tradycja magii** : Tradycja, z której korzysta zaklęcie:
    - [[Magia Pierwotna]]
    - [[Magia Werbalna]]
@@ -26,8 +26,8 @@ Każde zaklęcie składa się z następujących elementów:
 Gdy postać zdobywa nowe zaklęcie, buduje je według poniższych zasad:
 
 <ol style="list-style-type: decimal; margin-left: 2em; padding-left: 1.5em;">
-  <li>Wybiera [[Bazy Magii|Bazową Magię]] z listy. Ten wybór dyktuje podstawowe efekty zaklęcia</li>
-  <li>Wybiera [[Tradycje|Tradycję magii]], z której zaklęcie korzysta.Ten efekt dyktuje używaną Charakterystykę i sposób rzucania zaklęcia.</li>
+  <li>Wybiera [[Bazy Magii/|Bazową Magię]] z listy. Ten wybór dyktuje podstawowe efekty zaklęcia</li>
+  <li>Wybiera [[Tradycje/|Tradycję magii]], z której zaklęcie korzysta.Ten efekt dyktuje używaną Charakterystykę i sposób rzucania zaklęcia.</li>
   <li>Może następnie wybrać <strong>0 lub więcej efektów zaklęcia</strong> z tabeli efektów dostępnych dla danego Bazowego Efektu.</li>
   <li>Na końcu nadaje zaklęciu własną <strong>nazwę</strong>.</li>
 </ol>
