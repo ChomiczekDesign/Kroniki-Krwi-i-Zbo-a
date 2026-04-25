@@ -1,0 +1,92 @@
+# Budowanie zaklęć
+
+Każde zaklęcie jest indywidualnie zbudowaną formą magii. Choć dwa zaklęcia mogą opierać się na tym samym **Bazowym Efeckie**, mogą działać inaczej w zależności od wybranego **typu magii**, zestawu stałych **efektów zaklęcia** oraz sposobu, w jaki czarujący korzysta z **zawsze dostępnych opcji** podczas rzucania.
+
+### Elementy zaklęcia
+
+Każde zaklęcie składa się z następujących elementów:
+1. **Bazowy Efekt**: Podstawowy typ zaklęcia, taki jak **Augment**, **Attack**, **Utility** i inne.
+3. **Typ magii** : Tradycja, z której korzysta zaklęcie, na przykład **Primal**, **Verse** albo **Arcana**.
+4. **Zawsze dostępne opcje**: 
+   - Są to opcje, które czarujący może dołączać do zaklęcia przy każdym rzuceniu, o ile zdecyduje się ponieść ich koszt w trudności.  
+   - Przykładem może być **Increase Range** albo **Additional Target**.  
+   - Opcje te nie są stałą częścią zaklęcia — mogą być włączane lub pomijane przy każdym użyciu.
+5. **Efekty zaklęcia**  
+   - Są to trwałe modyfikacje wybrane podczas budowania zaklęcia. Każdy taki efekt zmienia działanie czaru i staje się jego stałą częścią.  
+   - W przeciwieństwie do zawsze dostępnych opcji, efektów tych nie włącza się i nie wyłącza przy rzucaniu — jeśli zostały wybrane, są zawsze aktywne podczas używania danego zaklęcia.
+6. **Nazwa zaklęcia** : Ostateczna, fabularna nazwa nadana zaklęciu przez postać.
+
+---
+
+## Tworzenie nowego zaklęcia
+
+Gdy postać zdobywa nowe zaklęcie, buduje je według poniższych zasad:
+
+1. Wybiera **Bazowy Efekt** z listy dostępnej dla używanego rodzaju magii.
+2. Wybiera **Typ magii**, z którego zaklęcie korzysta.
+3. Może następnie wybrać **0 lub więcej efektów zaklęcia** z tabeli efektów dostępnych dla danego Bazowego Efektu.
+4. Na końcu nadaje zaklęciu własną **nazwę**.
+
+Zaklęcie może zostać zbudowane z dowolnej liczby efektów, o ile wszystkie wybrane elementy spełniają zasady budowania.
+
+---
+
+## Zasady wyboru efektów
+
+Efekty zaklęcia są wybierane z tabeli przypisanej do danego **Bazowego Efektu**.
+
+Każdy efekt:
+- modyfikuje bazową trudność testu,
+- dodaje nowy sposób działania zaklęcia albo zmienia jego podstawowy efekt,
+- może mieć ograniczenia dotyczące typu magii,
+- może wymagać odpowiednio wysokiej rangi zaklęcia.
+
+### Minimalna ranga magii
+- Aby wybrać dany efekt, zaklęcie musi posiadać rangę równą lub wyższą od wartości wskazanej w polu **Minimalna Ranga Magii**.
+- Jeśli zaklęcie nie spełnia tego wymogu, efekt nie może zostać do niego dodany.
+
+---
+
+## Rozwijanie zaklęcia
+
+Za każdym razem, gdy postać zdobywa nową rangę w danym zaklęciu, może wybrać jedną z poniższych opcji:
+
+- dodać do zaklęcia **1 nowy efekt**, do którego spełnia wymagania,
+- wymienić **1 już posiadany efekt** na inny dostępny efekt, do którego spełnia wymagania.
+
+Pozwala to rozwijać zaklęcie stopniowo, wraz z postępami postaci, albo zmieniać jego charakter w miarę rozwoju stylu gry i fabuły.
+
+---
+
+## Efekty zaklęcia a zawsze dostępne opcje
+
+Warto rozróżniać te dwa elementy:
+
+### Zawsze dostępne opcje
+- są wspólne dla wszystkich wersji danego Bazowego Efektu,
+- mogą być dobierane przy każdym rzuceniu osobno,
+- zwiększają trudność tylko wtedy, gdy czarujący faktycznie z nich korzysta.
+
+### Efekty zaklęcia
+- są wybierane podczas budowania zaklęcia,
+- stanowią stałą część konkretnego czaru,
+- zawsze działają przy jego użyciu,
+- nie są włączane ani wyłączane przy poszczególnych rzutach.
+
+---
+
+## Przykład
+
+Postać tworzy zaklęcie oparte na **Augment** i wybiera typ magii **Primal**.
+
+Następnie dodaje do niego efekty:
+- **Primal Health**
+- **Swift**
+
+Od tej chwili oba te efekty są stałą częścią zaklęcia i zawsze działają, gdy postać rzuca ten konkretny czar.
+
+Przy każdym użyciu czarujący może dodatkowo zdecydować, czy chce zastosować zawsze dostępne opcje, takie jak:
+- **Increase Range**
+- **Additional Target**
+
+Opcje te zwiększają trudność tylko wtedy, gdy zostaną użyte przy danym rzuceniu.
