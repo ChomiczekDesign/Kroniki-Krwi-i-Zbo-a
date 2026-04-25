@@ -3,8 +3,14 @@
 Tu znajdziesz zasady używane w kampanii.
 Kroniki rozgrywane są na systemie **[Genesys](https://online.anyflip.com/afeku/bsys/mobile/index.html)**
 
-## Podstawy Systemu
-- [[Podstawy Mechaniki]]
+## Przydatne linki
+- - [[Wykorzystanie Adventage i Threat w walce|Tabelka wykorzystywania Przewag i Niedogodności]]
+
+
+## Systemy i HB
+- [[Mechaniki/Magia|Magia i  Czary]]
+
+## [[Podstawy Mechaniki|Podstawy Systemu]]
 - [[Lista Umiejętności]]
 - [[Motywacje]]
   - [[Desire]]
@@ -12,5 +18,13 @@ Kroniki rozgrywane są na systemie **[Genesys](https://online.anyflip.com/afeku/
   - [[Flaw]]
   - [[Strength]]
 
-## Systemy i HB
-- [[Mechaniki/Magia|Magia i  Czary]]
+## [[Walka|Podstawy Walki]]
+- Statystyki powiazane z walką:
+  - [[Defense]]
+  - [[SOAK]]
+  - [[Strain]]
+  - [[Wounds]]
+- [[Zasięgi]]
+
+  
+
