@@ -5,8 +5,11 @@ Każde zaklęcie jest indywidualnie zbudowaną formą magii. Choć dwa zaklęcia
 ### Elementy zaklęcia
 
 Każde zaklęcie składa się z następujących elementów:
-1. **Bazowej Magii**: Podstawowy typ zaklęcia, taki jak **Augment**, **Attack**, **Utility** i inne.
-3. **Tradycja magii** : Tradycja, z której korzysta zaklęcie, na przykład **Primal**, **Verse** albo **Arcana**.
+- **[[Bazy Magii|Bazowej Magii]]**: Podstawowy typ zaklęcia, taki jak [[Wzmocnienie]], [[Atakujące]] i inne.
+- **Tradycja magii** : Tradycja, z której korzysta zaklęcie:
+   - [[Magia Pierwotna]]
+   - [[Magia Werbalna]]
+   - [[Magia Arkana]] 
 4. **Zawsze dostępne opcje**: 
    - Są to opcje, które czarujący może dołączać do zaklęcia przy każdym rzuceniu, o ile zdecyduje się ponieść ich koszt w trudności.  
    - Przykładem może być **Increase Range** albo **Additional Target**.  
@@ -22,12 +25,14 @@ Każde zaklęcie składa się z następujących elementów:
 
 Gdy postać zdobywa nowe zaklęcie, buduje je według poniższych zasad:
 
-1. Wybiera **Bazową Magię** z listy dostępnej dla używanego rodzaju magii.
-2. Wybiera **Tradycję magii**, z którego zaklęcie korzysta.
-3. Może następnie wybrać **0 lub więcej efektów zaklęcia** z tabeli efektów dostępnych dla danego Bazowego Efektu.
-4. Na końcu nadaje zaklęciu własną **nazwę**.
+<ol>
+  <li>Wybiera [[Bazy Magii|Bazową Magię]] z listy</li>
+  <li>Wybiera [[Tradycje|Tradycję magii]], z której zaklęcie korzysta.</li>
+  <li>Może następnie wybrać <strong>0 lub więcej efektów zaklęcia</strong> z tabeli efektów dostępnych dla danego Bazowego Efektu.</li>
+  <li>Na końcu nadaje zaklęciu własną <strong>nazwę</strong>.</li>
+</ol>
 
-Zaklęcie może zostać zbudowane z dowolnej liczby efektów, o ile wszystkie wybrane elementy spełniają zasady budowania.
+Zaklęcie może zostać zbudowane z dowolnej liczby efektów, o ile wszystkie wybrane elementy spełniają zasady budowania zaklęć.
 
 ---
 
