@@ -1,10 +1,12 @@
 | Koszt | Efekt |
 |---|---|
-| #Advantage | - Odzyskaj 1 strain<br>- Daj #Boost do następnego testu sojusznika |
-| #Advantage #Advantage | - Wykonaj natychmiast darmowy manewr<br>- Daj #Setback do następnego testu celu<br>- Daj #Boost do następnego testu dowolnego sojusznika |
-| #Advantage #Advantage #Advantage | - Zaneguj defensywne bonusy celu do końca rundy<br>- Zignoruj karę środowiskową do końca następnej tury<br>- Zamiast zadawać obrażenia lub strain, unieszkodliw cel w sposób sytuacyjny<br>- Zyskaj +1 melee lub ranged defense do końca następnej tury<br>- Spraw, by cel upuścił trzymaną broń |
-| #Triumph | - Zadaj 1 Critical Injury albo aktywuj silny dodatkowy efekt<br>- Upgrade trudność następnego testu celu<br>- Upgrade następnego testu sojusznika |
-| #Threat | - Otrzymaj 1 strain<br>- Strać korzyść z wcześniejszego manewru |
-| #Threat #Threat | - Przeciwnik natychmiast wykonuje darmowy manewr<br>- Daj #Boost do następnego testu celu<br>- Daj #Setback do następnego testu swojego lub sojusznika |
-| #Threat #Threat #Threat | - Upadnij na ziemię<br>- Slot inicjatywy używany teraz staje się ostatni w kolejności |
-| #Despair | - Poważna komplikacja; często uszkodzenie broni, trafienie niewłaściwego celu albo inny ciężki zwrot sytuacji |
+| <span style="white-space: nowrap;">#Advantage / #Triumph</span>  | - Odzyskaj 1 strain<br>- Daj #Boost do następnego testu sojusznika<br>- Przedmiot będący celem ataku otrzymuje **Lekkie Uszkodzenie**. Jeśli jest to **Improvised Weapon**, przedmiot rozpada się i staje się nieodzyskiwany. |
+| #<span style="white-space: nowrap;">Advantage #Advantage / #Triumph</span>  | - Wykonaj natychmiast darmowy manewr<br>- Przedmiot będący celem ataku otrzymuje **Ciężkie Uszkodzenie**.<br>- Daj #Setback do następnego testu celu<br>- Daj #Boost do następnego testu dowolnego sojusznika |
+| <span style="white-space: nowrap;">#Advantage #Advantage #Advantage / #Triumph</span>  | - Zaneguj defensywne bonusy celu do końca rundy<br>- Przedmiot będący celem ataku otrzymuje **Krytyczne Uszkodzenie**.<br>- Zignoruj karę środowiskową do końca następnej tury<br>- Zamiast zadawać obrażenia lub strain, unieszkodliw cel w sposób sytuacyjny<br>- Zyskaj +1 melee lub ranged defense do końca następnej tury<br>- Spraw, by cel upuścił trzymaną broń |
+| <span style="white-space: nowrap;">#Advantage #Advantage #Advantage #Advantage / #Triumph</span>  | - Przedmiot będący celem ataku zostaje **Zniszczony** |
+| <span style="white-space: nowrap;">#Triumph</span>  | - Zadaj 1 Critical Injury albo aktywuj silny dodatkowy efekt<br>- Upgrade trudność następnego testu celu<br>- Upgrade następnego testu sojusznika |
+| <span style="white-space: nowrap;">#Threat / #Despair</span>  | - Otrzymaj 1 strain<br>- Używany przedmiot lub broń otrzymuje **Lekkie Uszkodzenie**. Jeśli jest to **Improvised Weapon**, przedmiot rozpada się i staje się nieodzyskiwany.<br>- Strać korzyść z wcześniejszego manewru |
+| <span style="white-space: nowrap;">#Threat #Threat / #Despair</span>  | - Przeciwnik natychmiast wykonuje darmowy manewr<br>- Używany przedmiot lub broń otrzymuje **Ciężkie Uszkodzenie**.<br>- Daj #Boost do następnego testu celu<br>- Daj #Setback do następnego testu swojego lub sojusznika |
+| <span style="white-space: nowrap;">#Threat #Threat #Threat / #Despair</span>  | - Upadnij na ziemię<br>- Używany przedmiot lub broń otrzymuje **Krytyczne Uszkodzenie**.<br>- Slot inicjatywy używany teraz staje się ostatni w kolejności |
+| <span style="white-space: nowrap;">#Threat #Threat #Threat #Threat / #Despair</span>  | - Używany przedmiot lub broń zostaje **Zniszczony**. |
+| <span style="white-space: nowrap;">#Despair</span>  | - Poważna komplikacja; często uszkodzenie broni, trafienie niewłaściwego celu albo inny ciężki zwrot sytuacji |
