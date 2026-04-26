@@ -1,4 +1,6 @@
-# Świat
+# Świat Kronik
+
+![[Świat - Mapa.png]]
 
 ## Regiony
 - [[Dorzecze]
