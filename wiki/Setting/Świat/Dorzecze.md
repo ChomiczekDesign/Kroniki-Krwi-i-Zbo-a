@@ -1,4 +1,4 @@
-# [[Dorzecze]]
+# Dorzecze
 
 ![[Mapa - Dorzecze.png]]
 
