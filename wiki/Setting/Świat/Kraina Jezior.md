@@ -1,16 +1,16 @@
 # Kraina Jezior
 
-![[Wizualizacja - Lior.png]]
+![[Mapa - Lior.png]]
 
 [[Lior]], zwany też [[Kraina Jezior|Krainą Jezior]], jest jedną z najpiękniejszych i najbardziej zwodniczo łagodnych krain znanego świata. To długi, szeroki pas jezior, wysp, grobli i meandrujących rzek, ciągnący się z północnego wschodu na południowy zachód, oparty od północy o [[Grzbiet Świata]], [[Wielka Brama|Wielką Bramę]] i południową część wschodniego ramienia [[Milczące Góry|Milczących Gór]].
-
-![[Mapa - Lior.png]]
 
 Z daleka Lior wygląda jak kraina urodzaju i spokoju. Wody błyszczą między wzgórzami, sady schodzą ku brzegom jezior, winorośle oplatają niskie murki, a małe, bielone wapnem domy stoją wśród zieleni, jakby wyrosły tam razem z drzewami. Nad większymi osadami widać wieże i dwory czarodziejek, odbite w tafli jezior razem z chmurami, trzciną i białymi skarpami.
 
 To ziemia owoców, ryb, łagodnych zim i miękkiego światła. Ludzie naprawdę żyją tu dobrze, a wiele wsi zna głównie rytm połowów, zbiorów, świąt i drobnych sporów z sąsiadami. Ale pod tym spokojem płynie coś starszego.
 
 W Liorze woda nie jest tylko wodą. Jeziora mają swoje duchy, wyspy swoje sekrety, a mgły potrafią odciąć człowieka od świata równie skutecznie jak kamienny mur. Kto trzyma się osad, znanych grobli, głównych szlaków i łaski miejscowej czarodziejki, może przeżyć całe życie w dostatku i względnym bezpieczeństwie. Kto jednak skręci w boczną odnogę, popłynie za śpiewem z trzcin albo wejdzie na wyspę, której nie ma na mapie, może odkryć, że Lior nie jest tak łagodny, jak się wydawało.
+
+![[Wizualizacja - Lior.png]]
 
 ## Kraina wody, sadów i białego kamienia
 
