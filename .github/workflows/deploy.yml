@@ -25,7 +25,7 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Download Kiln
+      - name: Install Kiln
         run: |
           curl -L https://github.com/otaleghani/kiln/releases/latest/download/kiln_linux_amd64 -o kiln
           chmod +x kiln
@@ -36,7 +36,26 @@ jobs:
 
       - name: Build site
         run: |
-          ./kiln generate --input ./wiki_build --output ./public
+          ./kiln generate \
+            --input ./wiki_build \
+            --output ./public \
+            --disable-local-graph
+
+      - name: Add custom paragraph CSS
+        run: |
+          cat > ./public/custom.css <<'EOF'
+          article p,
+          main p,
+          .markdown-preview-view p,
+          .markdown-rendered p {
+            text-align: justify;
+            hyphens: auto;
+            overflow-wrap: break-word;
+            word-break: normal;
+          }
+          EOF
+
+          find ./public -name "*.html" -type f -exec sed -i 's#</head>#<link rel="stylesheet" href="/custom.css">\n</head>#' {} +
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
