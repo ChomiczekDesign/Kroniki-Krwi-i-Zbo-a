@@ -41,29 +41,15 @@ jobs:
             --output ./public \
             --disable-local-graph
 
-      - name: Add custom paragraph CSS
+            - name: Add custom paragraph CSS
         run: |
           cat > ./public/custom.css <<'EOF'
-          html {
-            hyphens: auto;
-          }
-
-          p,
-          article p,
-          main p,
-          .content p,
-          .markdown p,
-          .markdown-body p,
-          .markdown-rendered p,
-          .markdown-preview-view p,
-          .page-content p,
-          .note-content p {
+          p {
             text-align: justify !important;
             text-align-last: auto;
-            hyphens: auto !important;
-            -webkit-hyphens: auto !important;
-            -ms-hyphens: auto !important;
-            overflow-wrap: normal;
+            hyphens: auto;
+            -webkit-hyphens: auto;
+            overflow-wrap: break-word;
             word-break: normal;
           }
           EOF
