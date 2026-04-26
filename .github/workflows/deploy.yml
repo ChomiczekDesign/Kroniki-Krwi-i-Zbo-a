@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -25,13 +25,18 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
+      - name: Install Kiln
+        run: |
+          curl -L https://github.com/otaleghani/kiln/releases/latest/download/kiln_linux_amd64 -o kiln
+          chmod +x kiln
+
       - name: Process dice tags
         run: |
           python3 .github/workflows/replace_dice_tags.py
 
       - name: Build site
         run: |
-          kiln generate \
+          ./kiln generate \
             --input ./wiki_build \
             --output ./public \
             --disable-local-graph
@@ -60,7 +65,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     needs: build
 
     steps:
