@@ -43,41 +43,63 @@ jobs:
 
       - name: Add custom paragraph CSS
         run: |
-          cat > ./public/custom.css <<'EOF'
-          main p,
-          article p,
-          .content p,
-          .markdown-body p,
-          .page-content p,
-          p {
-            text-align: justify !important;
-            text-align-last: auto;
-            hyphens: auto !important;
-            -webkit-hyphens: auto;
-            overflow-wrap: break-word;
-            word-break: normal;
-          }
-          EOF
-
           python3 <<'PY'
           from pathlib import Path
+          import re
+
+          CUSTOM_STYLE = """
+          <style id="custom-justify-css">
+            html[lang="pl"] p,
+            body p,
+            main p,
+            article p,
+            section p,
+            .content p,
+            .page-content p,
+            .note-content p,
+            .markdown p,
+            .markdown-body p,
+            .markdown-rendered p,
+            .markdown-preview-view p,
+            [class*="content"] p {
+              text-align: justify !important;
+              text-align-last: auto !important;
+              hyphens: auto !important;
+              -webkit-hyphens: auto !important;
+              overflow-wrap: break-word !important;
+              word-break: normal !important;
+            }
+          </style>
+          """
 
           for path in Path("./public").rglob("*.html"):
               html = path.read_text(encoding="utf-8")
 
-              if "<html" in html and "lang=" not in html.split(">", 1)[0]:
-                  html = html.replace("<html", '<html lang="pl"', 1)
+              # Ustaw lang="pl" dla poprawnego hyphenation
+              if "<html" in html:
+                  first_tag = html.split(">", 1)[0]
+                  if "lang=" not in first_tag:
+                      html = html.replace("<html", '<html lang="pl"', 1)
 
-              if "custom.css" not in html:
-                  html = html.replace(
-                      "</head>",
-                      '<link rel="stylesheet" href="custom.css">\n</head>',
-                      1
-                  )
+              # Usuń stare wersje custom CSS/linków, żeby nie mieszały
+              html = html.replace('<link rel="stylesheet" href="custom.css">\n', "")
+              html = html.replace('<link rel="stylesheet" href="/custom.css">\n', "")
+
+              html = re.sub(
+                  r'\s*<style id="custom-justify-css">.*?</style>',
+                  '',
+                  html,
+                  flags=re.DOTALL
+              )
+
+              # Wstrzyknij styl jak najpóźniej, przed </body>
+              if "</body>" in html:
+                  html = html.replace("</body>", CUSTOM_STYLE + "\n</body>", 1)
+              else:
+                  html += CUSTOM_STYLE
 
               path.write_text(html, encoding="utf-8")
           PY
-
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
