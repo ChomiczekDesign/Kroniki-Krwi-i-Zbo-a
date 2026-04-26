@@ -6,6 +6,8 @@ Wielka Brama to szeroka kraina wyżyn, wzgórz i skalnych ostańców, rozciągni
 
 To ziemia przestrzeni, kurzu i wiatru. Wzgórza ciągną się tu jedno za drugim, szerokie i łagodne, porośnięte trawą, poprzecinane kamiennymi wyniesieniami i samotnymi ostańcami. Z jednego grzbietu widać następny, a za nim jeszcze następny; im dalej od drogi, tym bardziej człowiek rozumie, że Wielka Brama nie jest tylko otwartą krainą przejazdu, ale ziemią pogranicza, gdzie ruch, interes i stara pamięć istnieją obok siebie.
 
+![[Wizualizacja - Wielka Brama.png]]
+
 ## Kraina pomiędzy światami
 
 Wielka Brama nigdy nie należała naprawdę do jednej kultury. Mieszają się tu wpływy [[Dorzecze|Dorzecza]], [[Kraina Jezior|Krainy Jezior]], orczych klanów i Krasnoludzkiego Cesarstwa. W jednym zajeździe można usłyszeć kilka języków, przy jednym targu zobaczyć towary z różnych krańców świata, a w jednym miasteczku znaleźć domy zbudowane według zupełnie różnych tradycji.
@@ -87,5 +89,3 @@ Wielka Brama wydaje się bardziej uporządkowana niż [[Dorzecze]] i bardziej go
 To kraina, przez którą wielu chce tylko przejechać.
 
 A potem zostaje w niej dłużej, niż zamierzało.
-
-![[Wizualizacja - Wielka Brama.png]]
