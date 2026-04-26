@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout repository
@@ -25,15 +25,13 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-     
-
       - name: Process dice tags
         run: |
           python3 .github/workflows/replace_dice_tags.py
 
       - name: Build site
         run: |
-          ./kiln generate \
+          kiln generate \
             --input ./wiki_build \
             --output ./public \
             --disable-local-graph
@@ -62,7 +60,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: build
 
     steps:
