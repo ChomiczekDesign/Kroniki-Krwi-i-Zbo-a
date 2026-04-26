@@ -25,10 +25,7 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Install Kiln
-        run: |
-          curl -L https://github.com/otaleghani/kiln/releases/latest/download/kiln_linux_amd64 -o kiln
-          chmod +x kiln
+     
 
       - name: Process dice tags
         run: |
