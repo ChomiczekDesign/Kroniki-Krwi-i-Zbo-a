@@ -41,7 +41,7 @@ jobs:
             --output ./public \
             --disable-local-graph
 
-            - name: Add custom paragraph CSS
+      - name: Add custom paragraph CSS
         run: |
           cat > ./public/custom.css <<'EOF'
           p {
