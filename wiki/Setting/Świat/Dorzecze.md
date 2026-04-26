@@ -1,6 +1,6 @@
 # [[Dorzecze]]
 
-![[Wizualizacja - Dorzecze.png]]
+![[Mapa - Dorzecze.png]]
 
 [[Dorzecze]] nie jest jedną krainą w takim sensie, w jakim mówi się o [[Kraina Jezior|Liorze]], [[Wielka Brama|Wielkiej Bramie]] czy [[Milczące Góry|Milczących Górach]]. To ogromny, mokry i ciemnozielony obszar rzek, borów, błot, leśnych osad i drewnianych grodów, rozlany między wodą a puszczą tak szeroko, że nikt nigdy naprawdę nie objął go jednym prawem.
 
@@ -8,7 +8,7 @@ Z daleka Dorzecze może wydawać się żyzne i spokojne. Rzeki niosą wodę, las
 
 W Dorzeczu wieś daje ogień, miskę i miejsce do spania. Za ostatnią chatą czyha jednak już tylko dziki bór.
 
-![[Mapa - Dorzecze.png]]
+![[Wizualizacja - Dorzecze.png]]
 
 ## Kraina rzek, borów i błota
 
