@@ -1,0 +1,5 @@
+main article p,
+main article blockquote {
+  text-align: justify;
+  hyphens: auto;
+}
