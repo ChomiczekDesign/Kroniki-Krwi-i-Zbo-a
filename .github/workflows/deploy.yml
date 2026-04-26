@@ -44,10 +44,15 @@ jobs:
       - name: Add custom paragraph CSS
         run: |
           cat > ./public/custom.css <<'EOF'
+          main p,
+          article p,
+          .content p,
+          .markdown-body p,
+          .page-content p,
           p {
             text-align: justify !important;
             text-align-last: auto;
-            hyphens: auto;
+            hyphens: auto !important;
             -webkit-hyphens: auto;
             overflow-wrap: break-word;
             word-break: normal;
