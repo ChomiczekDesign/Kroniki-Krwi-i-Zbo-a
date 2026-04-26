@@ -60,8 +60,10 @@ jobs:
           .note-content p {
             text-align: justify !important;
             text-align-last: auto;
-            hyphens: auto;
-            overflow-wrap: break-word;
+            hyphens: auto !important;
+            -webkit-hyphens: auto !important;
+            -ms-hyphens: auto !important;
+            overflow-wrap: normal;
             word-break: normal;
           }
           EOF
