@@ -62,7 +62,7 @@ Zorganizowana nauka magii jest rzadka. W [[Kraina Jezior|Liorze]] czarodziejki p
 
 ## Magia i bogowie
 
-Bogowie mają własne sposoby używania magii, opisane szerzej w artykule o [[Domeny|Domenach]]. Dla zwykłych ludzi różnica bywa prosta: czarujący przemawia do świata własną wolą, a żerca prosi lub prowadzi moc boga.
+Bogowie mają własne sposoby używania magii. Dla zwykłych ludzi różnica bywa prosta: czarujący przemawia do świata własną wolą, a żerca prosi lub prowadzi moc boga.
 
 Nie oznacza to, że każda magia musi być religijna. Używanie magii bez boskiego pośrednictwa jest normalne, choć różne kulty i krainy mogą patrzeć na nie inaczej. Jedni widzą w tym dar świata, inni niebezpieczną samowolę, jeszcze inni po prostu umiejętność, którą ocenia się po skutkach.
 
