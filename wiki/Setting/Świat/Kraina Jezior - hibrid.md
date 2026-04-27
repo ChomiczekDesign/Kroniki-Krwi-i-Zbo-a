@@ -14,6 +14,26 @@ Większość mieszkańców żyje spokojnie: łowi ryby, uprawia małe pola, dogl
 
 Najważniejszy kontrast Lioru to **pozorna sielanka i ukryta magia**: piękne jeziora, sady i białe domy istnieją obok duchów, zatopionych ruin i wody, która nie zawsze prowadzi tam, gdzie powinna.
 
+### Władza czarodziejek i konflikty
+
+Lior nie jest klasycznym królestwem. Najważniejszą władzę sprawują tu czarodziejki — lokalne władczynie, opiekunki, sędziny i patronki swoich domen. Ich wieże, dwory i pałacyki są centrami politycznymi oraz symbolicznymi sercami okolicznych osad.
+
+Wokół siedzib czarodziejek wyrastają większe wsie, miasteczka, przystanie i targi. Bliskość czarodziejki oznacza zwykle większe bezpieczeństwo, bardziej stabilne lokalne prawo i lepszą ochronę przed zagrożeniami. Jednocześnie czarodziejki bywają kapryśne, dumne i bardzo różne. Jedne są kochane przez swoich ludzi, inne bardziej budzą respekt niż sympatię.
+
+Dziedziczenie i prestiż w Liorze są silnie związane z liniami kobiecymi oraz relacją mistrzyni i uczennicy. Wieże często przechodzą z czarodziejki na następczynię, a lokalne hierarchie zależą od wieku, mocy, reputacji, sojuszy i dawnych przysiąg.
+
+Według legend cała Kraina Jezior miała kiedyś podlegać Pani Jezior, najpotężniejszej z czarodziejek. Od wielu pokoleń żadna władczyni nie sięgnęła jednak po ten tytuł. Obecny Lior jest rozdrobniony: istnieją sabaty, rady i zgromadzenia czarodziejek, ale żadna organizacja nie kontroluje całego regionu.
+
+Lior rzadko zna otwarte wojny. Bezpośrednie starcie potężnych czarodziejek mogłoby zniszczyć groble, zatruć jezioro, wypalić sad albo obudzić coś ze starych ruin. Z tego powodu spory między władczyniami częściej rozstrzygają Zaprzysiężeni — wojownicy oddani konkretnej czarodziejce. Pełnią rolę obrońców, posłańców, pojedynkowiczów i wykonawców jej woli. Dla mieszkańców Lioru są czymś pomiędzy rycerzami, strażnikami i żywymi symbolami władzy swojej pani.
+
+### Elfickie pozostałości
+
+Według legend przed ludźmi ziemie Lioru należały do elfów. Większość mieszkańców zna te opowieści, ale nie traktuje ich jako codziennej sprawy. Stare tarasy, groble, fundamenty i zatopione mury są dla nich przede wszystkim częścią krajobrazu.
+
+Ślady elfickiej obecności można znaleźć w wielu miejscach, choć trzeba wiedzieć, gdzie patrzeć. Są to tarasy nad jeziorami, stare konstrukcje hydrologiczne, fundamenty wież czarodziejek, kamienne schody znikające pod wodą, ruiny na wyspach i fragmenty zdobień starte przez czas.
+
+Część tych miejsc nadal nosi ślady dawnej magii. Bywa, że kamień jest ciepły zimą, woda płynie pod prąd, drzewa owocują poza porą roku albo ptaki milkną nad konkretnym zakolem. Takie miejsca są rzadko opisywane wprost przez mieszkańców. Czarodziejki czasem zamykają je magią, uczeni chcą je badać, a rozsądni ludzie wolą nie ruszać tego, co działało przez tysiąc lat bez ich pomocy.
+
 ## Położenie
 
 ![[Mapa - Lior.png]]
@@ -29,18 +49,6 @@ Lior jest polodowcową krainą jezior. Krajobraz tworzą setki większych i mnie
 Jeziora często łączą się kanałami, zatokami i odnogami rzek, przez co łatwo skręcić w zły przesmyk albo trafić na miejsce, którego nie ma na prostej mapie. W wielu częściach regionu występują też kredowe skarpy i wapienne głazy narzutowe, używane przez miejscowych do bielenia domów.
 
 Ważnym elementem krajobrazu są tarasowe pola i sady schodzące ku jeziorom. Chronią uprawy przed wiosennymi wylewami i pozwalają wykorzystywać strome brzegi. Dla większości mieszkańców są po prostu starymi, praktycznymi strukturami. Tylko uczeni i czarodziejki dostrzegają, że wiele z nich może mieć starsze, elfickie pochodzenie.
-
-## Władza czarodziejek i konflikty
-
-Lior nie jest klasycznym królestwem. Najważniejszą władzę sprawują tu czarodziejki — lokalne władczynie, opiekunki, sędziny i patronki swoich domen. Ich wieże, dwory i pałacyki są centrami politycznymi oraz symbolicznymi sercami okolicznych osad.
-
-Wokół siedzib czarodziejek wyrastają większe wsie, miasteczka, przystanie i targi. Bliskość czarodziejki oznacza zwykle większe bezpieczeństwo, bardziej stabilne lokalne prawo i lepszą ochronę przed zagrożeniami. Jednocześnie czarodziejki bywają kapryśne, dumne i bardzo różne. Jedne są kochane przez swoich ludzi, inne bardziej budzą respekt niż sympatię.
-
-Dziedziczenie i prestiż w Liorze są silnie związane z liniami kobiecymi oraz relacją mistrzyni i uczennicy. Wieże często przechodzą z czarodziejki na następczynię, a lokalne hierarchie zależą od wieku, mocy, reputacji, sojuszy i dawnych przysiąg.
-
-Według legend cała Kraina Jezior miała kiedyś podlegać Pani Jezior, najpotężniejszej z czarodziejek. Od wielu pokoleń żadna władczyni nie sięgnęła jednak po ten tytuł. Obecny Lior jest rozdrobniony: istnieją sabaty, rady i zgromadzenia czarodziejek, ale żadna organizacja nie kontroluje całego regionu.
-
-Lior rzadko zna otwarte wojny. Bezpośrednie starcie potężnych czarodziejek mogłoby zniszczyć groble, zatruć jezioro, wypalić sad albo obudzić coś ze starych ruin. Z tego powodu spory między władczyniami częściej rozstrzygają Zaprzysiężeni — wojownicy oddani konkretnej czarodziejce. Pełnią rolę obrońców, posłańców, pojedynkowiczów i wykonawców jej woli. Dla mieszkańców Lioru są czymś pomiędzy rycerzami, strażnikami i żywymi symbolami władzy swojej pani.
 
 ## Osadnictwo
 
@@ -79,14 +87,6 @@ Latem Lior jest najbardziej ruchliwy i najłatwiejszy do kochania. Jeziora są p
 Jesień to czas zbiorów. Jabłka, gruszki, śliwy, winogrona, len, zioła i ryby trafiają do piwnic, suszarni, beczek i magazynów. To także pora lokalnych świąt, umów, uczt i ostatnich większych podróży przed zimą.
 
 Zima w Liorze jest łagodna jak na tę część świata. Śniegu zwykle nie ma dużo, ale jeziora zamarzają nierówno. Łodzie przestają kursować na wielu trasach, a lód bywa zdradliwy: mocny przy brzegu, niepewny dalej od lądu. Podróż nie zamiera całkiem, ale staje się wolniejsza i mniej przewidywalna.
-
-## Elfickie pozostałości
-
-Według legend przed ludźmi ziemie Lioru należały do elfów. Większość mieszkańców zna te opowieści, ale nie traktuje ich jako codziennej sprawy. Stare tarasy, groble, fundamenty i zatopione mury są dla nich przede wszystkim częścią krajobrazu.
-
-Ślady elfickiej obecności można znaleźć w wielu miejscach, choć trzeba wiedzieć, gdzie patrzeć. Są to tarasy nad jeziorami, stare konstrukcje hydrologiczne, fundamenty wież czarodziejek, kamienne schody znikające pod wodą, ruiny na wyspach i fragmenty zdobień starte przez czas.
-
-Część tych miejsc nadal nosi ślady dawnej magii. Bywa, że kamień jest ciepły zimą, woda płynie pod prąd, drzewa owocują poza porą roku albo ptaki milkną nad konkretnym zakolem. Takie miejsca są rzadko opisywane wprost przez mieszkańców. Czarodziejki czasem zamykają je magią, uczeni chcą je badać, a rozsądni ludzie wolą nie ruszać tego, co działało przez tysiąc lat bez ich pomocy.
 
 ## Zagrożenia
 
