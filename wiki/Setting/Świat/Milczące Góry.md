@@ -1,91 +1,105 @@
 # Milczące Góry
 
-![[Mapa - Milczące Góry.png]]
-
-Milczące Góry są największym łańcuchem górskim na kontynencie. Układają się w kształt litery **V**, obejmując od południa i zachodu [[Dorzecze]]. Od wschodu stykają się z **[[Wielka Brama|Wielką Bramą]]**, a wzdłuż ich południowo-wschodnich krańców ciągnie się **[[Kraina Jezior]]**.
-
-To nie są zwykłe góry. Są dziwne nawet jak na góry. Nie ma tu echa. Głos nie wraca ze skał, wołanie urywa się szybciej, niż człowiek się spodziewa, a nawet odgłos kroków zdaje się ginąć zbyt prędko. Same góry sprawiają wrażenie, jakby tłumiły i połykały dźwięki. Ich cisza nie jest spokojna — jest ciężka, obca i niepokojąca, jakby kamień sam nie chciał oddawać tego, co raz usłyszał.
-
 ![[Wizualizacja - Milczące Góry.png]]
 
-## Cztery oblicza gór
+[[Milczące Góry]] to największy łańcuch górski kontynentu: surowy, stromy i dziwnie cichy. Układają się w kształt litery V, obejmując od południa i zachodu [[Dorzecze]], stykając się od wschodu z [[Wielka Brama|Wielką Bramą]], a od południowego wschodu z [[Kraina Jezior|Krainą Jezior]]. Nie są to góry gościnne. Nawet tam, gdzie da się żyć, krajobraz pozostaje twardy, zimny i niewybaczający.
 
-Milczące Góry dzielą się na cztery wielkie części.
+Najważniejsze informacje o Milczących Górach: **to kraina ciszy, stromych zboczy, odciętych dolin, orczych klanów, kopalń i prawie nieprzekraczalnych centralnych szczytów**. Życie skupia się głównie w podnóżach, niższych dolinach i na zewnętrznych zboczach. Wyżej zaczynają się tereny, gdzie nie ma prawdziwych dróg, osady są odcięte na długie miesiące, a sama magia zdaje się milknąć razem z echem.
 
-### Zachodnie Ramię
+## Charakter regionu
 
-Zachodnie Ramię opiera się o [[Podgórze]]. To szeroki, surowy łańcuch, pocięty głębokimi dolinami i wysokimi grzbietami. Jest niegościnne, strome i dzikie — ustępuje tylko samym Górom Centralnym.
+Milczące Góry są przede wszystkim krainą **ciszy, kamienia, wiatru i stromizny**. Ich najbardziej rozpoznawalną cechą jest brak echa. Głos nie wraca ze skał, wołanie urywa się zbyt szybko, a kroki giną szybciej, niż powinny. Cisza nie jest tu spokojem, lecz czymś ciężkim i obcym, jakby góry połykały dźwięk razem z oddechem.
 
-To miejsce mroczne i ponure, pełne dolin, w których, jak mówią miejscowi, nigdy nie postała ludzka ani orcza noga. Osady trzymają się tu niższych partii i zewnętrznych zboczy, bo wyżej zaczyna się świat, który bardziej odstrasza niż kusi.
+W przeciwieństwie do [[Dorzecze|Dorzecza]] nie jest to kraina, która zarasta człowieka lasem i błotem. Milczące Góry odpychają bardziej bezpośrednio: stromymi zboczami, zimnem, brakiem dróg, osuwającym się kamieniem i dolinami, z których przez pół roku nie da się wyjść.
 
-### Wschodnie Ramię
+Najważniejszy kontrast regionu to **zamieszkane podnóża i martwe centrum gór**. Niżej istnieją osady, pastwiska, kopalnie, twierdze i klany. Wyżej zaczyna się świat, w którym nawet orkowie poruszają się ostrożnie, a człowiek szybko rozumie, że góry nie zostały stworzone z myślą o nim.
 
-Wschodnie Ramię opiera się o [[Wielka Brama|Wielką Bramę]]. Jest łagodniejsze i węższe od zachodniego, z nieco niższymi szczytami i bardziej rozległymi stokami. Na pierwszy rzut oka potrafi nawet przypominać górską idyllę — bardziej otwartą, mniej przytłaczającą, łatwiejszą do zamieszkania.
+### Cztery oblicza gór
 
-Pod tym obrazem kryją się jednak stare bory, jaskinie i dzikie miejsca, w których żyją rzeczy należące do natury jeszcze sprzed czasów ludzi i orków. Wschodnie Ramię bywa więc najbardziej przychylne, ale też najbardziej zwodnicze.
+Milczące Góry dzielą się na cztery główne części: 
 
-### Centralne Milczące Góry
+**Zachodnie Ramię** opiera się o [[Podgórze]]. Jest szerokie, surowe i pocięte głębokimi dolinami oraz wysokimi grzbietami. Osady trzymają się niższych partii i zewnętrznych zboczy, bo wyżej zaczyna się teren zbyt stromy, zbyt dziki i zbyt pusty, by ludzie albo orkowie mogli czuć się tam pewnie.
 
-To najwyższe, najbardziej strome i najbardziej niedostępne partie całego pasma. Tu kończy się świat ludzi, orków i niemal wszystkiego, co zwykłe. Szczyty są ostre, wysokie i drapieżne, jakby same chciały odeprzeć każdą próbę wejścia. Wyżej nie rośnie już prawie nic i nie żyje prawie nic. Nie ma dróg, nie ma szlaków, nie ma powodów, by tam iść — poza desperacją, szaleństwem albo czymś jeszcze gorszym.
+**Wschodnie Ramię** opiera się o [[Wielka Brama|Wielką Bramę]]. Jest łagodniejsze i węższe, z niższymi szczytami oraz bardziej otwartymi stokami. Na pierwszy rzut oka bywa najbardziej przychylne, ale pod tym spokojniejszym obrazem kryją się stare bory, jaskinie i dzikie miejsca, w których żyją rzeczy starsze od obecnych ludów.
 
-To właśnie o centralnych szczytach mówi się, że na najwyższym z nich śpi od wieków pradawny smok. Mało kto traktuje tę opowieść jak pewnik, ale niewielu też ma odwagę śmiać się z niej zbyt głośno.
+**Centralne Milczące Góry** są najwyższe, najbardziej strome i najbardziej niedostępne. Nie ma tam prawdziwych dróg, stałych osad ani powodów, by iść wyżej — poza desperacją, szaleństwem albo czymś, co samo w sobie jest już złym znakiem. To o centralnych szczytach mówi się, że na najwyższym z nich śpi pradawny smok.
 
-### Podnóże
+**Podnóże** jest najłagodniejszą i najbardziej zamieszkaną częścią regionu. Są tam lasy, doliny, pastwiska, większe osady i miejsca, gdzie człowiek albo ork może jeszcze wierzyć, że należy do tego krajobrazu. Wciąż jest to jednak ziemia zdradliwa: pełna jarów, uskoków, ukrytych spadków i ścieżek, które po deszczu albo śniegu przestają być ścieżkami.
 
-Podnóże to pas niższych gór, wzgórz i wyżyn u stóp wielkiego łańcucha, tam gdzie łączą się oba ramiona i partie centralne. To najłagodniejsza i najbardziej zamieszkana część Milczących Gór. Nadal jest to surowa ziemia, ale da się tu żyć: są lasy, doliny, pastwiska, osady i miejsca, gdzie człowiek może jeszcze wierzyć, że należy do tego krajobrazu.
+### Orcze klany i starsze rzeczy
 
-To właśnie tutaj znajduje się największa twierdza-osada w okolicy i starożytny krąg spotkań, który w orczych opowieściach urósł do rangi miejsca niemal legendarnego.
+Milczące Góry zamieszkane są głównie przez orków, zwłaszcza klany związane z górskimi dolinami, podnóżami i wysokimi pastwiskami. Im bliżej [[Dorzecze|Dorzecza]] albo [[Wielka Brama|Wielkiej Bramy]], tym częściej spotyka się także ludzi-górali — takich, którzy żyją obok orków, handlują z nimi, walczą z nimi albo przyjęli część ich zwyczajów.
 
-Podnóża są też najbardziej ludzkie i najbardziej orcze zarazem. Lasy i wzgórza wydają się tu niemal gościnne, lecz równie zdradliwe: pełne nagłych jarów, uskoków i spadków ukrytych pod trawą, błotem albo cieniem drzew.
+Dla orków góry są miejscem na wpół świętym, na wpół przeklętym. Nie są „domem” w łagodnym sensie. Są ziemią, która hartuje, zabiera słabych i nie wybacza pychy. Klany znają swoje doliny, ścieżki i pastwiska, ale nawet one nie wchodzą wszędzie. Są miejsca, gdzie nie idzie się bez potrzeby, i szczyty, których nie próbuje się zdobywać tylko po to, by udowodnić odwagę.
 
-## Kraina stromsza od południa
+W górach zachowały się też ślady starszych ludów. Mówi się o krasnoludach, które miały miasta pod ziemią, i o elfach, które budowały kamienne osady wysoko na zboczach. Dla większości mieszkańców to już stare opowieści, ale czasem ktoś znajduje wejście zasypane kamieniem, ścianę zbyt gładką jak na naturę albo tarasy wysoko tam, gdzie dziś nikt nie mieszka.
 
-Południowa ściana Milczących Gór jest znacznie bardziej stroma niż północna. Od strony [[Kraina Jezior|Krainy Jezior]] i południowych zboczy pasmo wznosi się niemal jak kamienna ściana. Prawie nikt tam nie mieszka poza pojedynczymi, odizolowanymi wioskami i nielicznymi klanami orków. Nie ma tam prawdziwego przejścia ani życia, które mogłoby rozkwitnąć szerzej.
+## Położenie
 
-Dla [[Kraina Jezior|Krainy Jezior]] góry są po prostu murem. Dla [[Wielka Brama|Wielkiej Bramy]] — granicą, za którą się nie wychodzi. Dla [[Imperium Merrowingów]] — miejscem, gdzie kończy się świat, którym naprawdę warto się zajmować.
+![[Mapa - Milczące Góry.png]]
 
-## Drogi, których prawie nie ma
+Milczące Góry są największym pasmem górskim kontynentu i układają się w kształt litery V. Od południa i zachodu obejmują [[Dorzecze]], od wschodu stykają się z [[Wielka Brama|Wielką Bramą]], a ich południowo-wschodnie krańce ciągną się wzdłuż [[Kraina Jezior|Krainy Jezior]].
 
-W Milczących Górach podróżuje się inaczej niż na nizinach. W ramionach i w partiach centralnych prowadzą tylko nierówne górskie dróżki wysoko na zboczach, czasem przecięte przełęczami prowadzącymi do konkretnych dolin. Nie są to jednak szlaki w znaczeniu, jakie zna człowiek z nizin — raczej stare ścieżki, które istnieją tylko dlatego, że ktoś od pokoleń nimi chodził.
+Południowa ściana pasma jest znacznie bardziej stroma niż północna. Od strony [[Kraina Jezior|Krainy Jezior]] góry wznoszą się niemal jak kamienny mur. Prawie nikt tam nie mieszka poza pojedynczymi, odizolowanymi wioskami i nielicznymi klanami orków. Nie ma tam prawdziwego przejścia ani warunków, by rozwinęło się większe osadnictwo.
 
-W Podnóżu dróg jest więcej, ale nadal są dzikie, leśne i wydeptane, a nie naprawdę zbudowane. Im wyżej w góry, tym mniej pozostaje przejścia, aż w końcu osady stają się odcięte od świata, a całe doliny potrafią przez długie miesiące żyć tylko własnym rytmem.
+Dla [[Kraina Jezior|Krainy Jezior]] Milczące Góry są granicą i ścianą. Dla [[Wielka Brama|Wielkiej Bramy]] — krańcem świata dróg. Dla [[Imperium Merrowingów]] — miejscem, za którym zaczyna się ziemia zbyt trudna, by łatwo nią rządzić albo ją wykorzystać.
 
-Środek gór pozostaje w praktyce niemal nieprzekraczalny. Nie z powodu jednej wielkiej ściany, lecz dlatego, że wszystko naraz sprzeciwia się człowiekowi: brak dróg, strome zbocza, nagie skały, głębokie przepaście, śnieg, głód i cisza.
+## Geografia
 
-## Osady przyklejone do zboczy
+Milczące Góry są pasmem wysokich grzbietów, ostrych szczytów, głębokich dolin i kamienistych przełęczy. Niżej znajdują się lasy, hale, pastwiska i doliny nadające się do osadnictwa; wyżej krajobraz staje się nagi, zimny i trudny, zdominowany przez skały, śnieg, wiatr, osuwiska i wąskie górskie ścieżki.
 
-Osady w Milczących Górach są małe i rozproszone. To bardziej ukryte górskie wioski niż duże skupiska  — przyklejone do stoków, schowane w dolinach, wciśnięte w miejsca, gdzie da się przeżyć. Domy są niskie, kamienne, osłonięte drewnem, z dachami krytymi darnią i trawą. W wyższych partiach wyglądają czasem bardziej jak sztuczne jamy niż prawdziwe budynki.
+Centralne partie gór pozostają niemal nieprzekraczalne. Nie zatrzymuje tam jedna wielka bariera, lecz wszystko naraz: brak dróg, nagłe załamania pogody, strome podejścia, głębokie przepaście, głód, zimno i cisza, która utrudnia ocenę odległości i kierunku.
 
-To krajobraz dymu unoszącego się z niskich domów, stad schodzących niżej przed zimą i orków, którzy całe życie uczą się, jak nie zginąć przez własną nieuwagę. Życie tutaj jest twarde. Zajmuje się wypasem kóz, owiec, górskich koni i kuców, łowiectwem, pracą przy kopalniach i wszelkim rzemiosłem, które można uprawiać wśród skał i chłodu.
+## Osadnictwo
 
-Góry rodzą metale — żelazo, srebro, złoto i inne kruszce — dlatego w wielu miejscach drąży się szyby i sztolnie. Częściej jednak pracują w nich niewolnicy niż miejscowi.
+Osady w Milczących Górach są małe, rozproszone i mocno zależne od terenu. Najczęściej powstają w dolinach, przy pastwiskach, u wejść do przełęczy, w pobliżu kopalń albo na podnóżach, gdzie da się jeszcze utrzymać zwierzęta i przeżyć zimę.
+
+Domy są niskie, kamienne, osłonięte drewnem, często z dachami krytymi darnią, trawą albo ciężkim materiałem odpornym na wiatr. W wyższych partiach niektóre budynki wyglądają bardziej jak sztuczne jamy albo schronienia wciśnięte w zbocze niż klasyczne domy. Architektura jest podporządkowana przetrwaniu: ma trzymać ciepło, nie dać się porwać wiatrowi i nie runąć pod śniegiem.
+
+Większe osady są rzadkie. Najważniejsze miejsca leżą zwykle w Podnóżu albo przy ważnych dolinach i kopalniach. To tam pojawiają się twierdze-osady, miejsca spotkań klanów, większe targi i punkty, w których krzyżują się ścieżki orków, ludzi-górali, handlarzy i wojowników.
+
+## Ekonomia
+
+Gospodarka Milczących Gór opiera się na tym, co da się wydrzeć kamieniowi, zwierzętom i krótkim okresom łagodniejszej pogody. Ważne są wypas kóz, owiec, górskich koni i kuców, łowiectwo, proste rzemiosło, handel skórami, wełną, mięsem oraz praca przy kopalniach.
+
+Najcenniejszym bogactwem gór są metale i kruszce: żelazo, srebro, złoto oraz inne wydobywane surowce. Kopalnie są jednym z powodów, dla których obcy w ogóle interesują się tym regionem. Często jednak nie pracują w nich wolni mieszkańcy, lecz niewolnicy.
+
+Milczące Góry potrzebują żywności, soli, zboża, tkanin, narzędzi, drewna z niższych terenów i towarów, których nie da się łatwo wytworzyć w odciętych dolinach. Handel istnieje, ale jest trudny, sezonowy i zależny od przełęczy. Zimą wiele osad żyje wyłącznie z zapasów.
+
+## Transport i podróż
+
+W Milczących Górach nie ma wygodnej sieci dróg. W Podnóżu ścieżek jest więcej, ale nadal są dzikie, leśne i wydeptane, a nie naprawdę zbudowane. W ramionach i wyższych partiach prowadzą głównie stare górskie dróżki, przełęcze i trasy znane lokalnym klanom.
+
+Podróż zależy od wysokości, pogody i pory roku. Dolina, która latem jest trudna, zimą może być całkowicie odcięta. Przełęcz, która rano wydaje się przejezdna, po południu może zniknąć w śniegu, mgle albo kamiennej lawinie. W centralnych partiach gór brak dróg jest jednym z głównych powodów, dla których niemal nikt nie próbuje ich przekraczać.
+
+Osady często żyją własnym rytmem, szczególnie wyżej w górach. Są doliny, które przez długie tygodnie albo miesiące mają kontakt tylko z najbliższą okolicą. Podróżnik bez miejscowej wiedzy ryzykuje nie tylko zgubienie drogi, ale też wejście w miejsce, z którego nie da się zejść przed zmrokiem, śniegiem albo załamaniem pogody.
+
+## Codzienność
+
+Życie w Milczących Górach jest twarde, praktyczne i podporządkowane przetrwaniu. Mieszkańcy zajmują się wypasem, polowaniem, pracą przy kopalniach, naprawą narzędzi, zbieraniem opału, suszeniem mięsa i przygotowywaniem zapasów. Nawet w niższych partiach rok kręci się wokół pytania, czy osada zdąży przygotować się przed zimą.
+
+W niższych dolinach życie bywa bardziej znośne: są pastwiska, lasy, strumienie, niewielkie pola i szlaki do sąsiednich osad. Wyżej każdy błąd kosztuje więcej. Zły krok może skończyć się upadkiem, źle zabezpieczony dach może nie przetrwać zimy, a źle wybrana pora podróży może odciąć człowieka od domu.
+
+Codzienność gór ma mało miejsca na miękkość. Ludzie i orkowie, którzy tu żyją, uczą się oszczędzać słowa, siły i zapasy. W krainie, gdzie nawet echo nie wraca, hałas i pycha wydają się czymś nie na miejscu.
 
 ## Pory roku
 
-Pory roku w Milczących Górach znaczą więcej niż gdziekolwiek indziej. Jesień to czas przygotowań: zwożenia drewna, napraw dachów, suszenia mięsa i sprowadzania stad niżej. Zima potrafi odciąć całe doliny od świata. Ścieżki znikają pod śniegiem, przełęcze stają się śmiertelną pułapką, a wiele osad przez długie tygodnie albo miesiące żyje wyłącznie tym, co zdołało zgromadzić.
+Jesień jest czasem przygotowań. Zwozi się drewno, naprawia dachy, suszy mięso, zabezpiecza wejścia, sprowadza stada niżej i gromadzi wszystko, co pozwoli przetrwać zimę. Dla wielu osad to najważniejsza pora roku, bo zaniedbania jesienne wracają zimą jako głód, mróz albo śmierć.
 
-Wiosna przynosi oddech, ale i niebezpieczeństwo. Topniejący śnieg odsłania urwiska, rozmiękcza zbocza i czyni drogę zdradliwą. Lato jest najłaskawsze, choć nawet wtedy wyżej w górach niewiele trzeba, by wiatr, mgła albo kamień przypomniały orkowi, gdzie naprawdę stoi.
+Zima potrafi odciąć całe doliny od świata. Ścieżki znikają pod śniegiem, przełęcze stają się śmiertelną pułapką, a osady żyją tym, co zgromadziły wcześniej. Niektóre miejsca niemal co roku zostają odcięte na tygodnie lub miesiące. Inne są tak oddalone, że właściwie zawsze żyją jak osobne światy.
 
-Są osady, które niemal co zimę zostają całkowicie odcięte od reszty świata. I są takie, które właściwie zawsze żyją „same sobie”, jakby każda pora roku była tam osobnym światem.
+Wiosna przynosi oddech, ale nie bezpieczeństwo. Topniejący śnieg odsłania urwiska, rozmiękcza zbocza, podnosi potoki i uruchamia osuwiska. Drogi wracają powoli, często w gorszym stanie niż przed zimą.
 
-## Kraina starych klanów i starszych rzeczy
+Lato jest najłaskawsze i najbardziej ruchliwe. Wtedy wypasa się wyżej, podróżuje między dolinami, naprawia drogi, odwiedza targi, załatwia spory i rusza do miejsc, które przez resztę roku są zbyt trudne. Nawet latem jednak mgła, wiatr albo kamień potrafią szybko przypomnieć, że góry pozostają górami.
 
-Milczące Góry zamieszkane są głównie przez orków. Im bliżej [[Dorzecze|Dorzecza]] albo [[Wielka Brama|Wielkiej Bramy]], tym częściej spotyka się też ludzi-górali — takich, którzy przyjęli część orczej kultury albo trzymają się tych terenów z samego uporu. Bywa między nimi wojna, bywa pokój, bywa wspólny handel i wspólne zimowanie. Góry nie uczą łagodności, ale uczą pragmatyzmu.
+## Zagrożenia
 
-Dla orków Milczące Góry są miejscem na wpół świętym, na wpół przeklętym: żywym, groźnym i niewybaczającym. To ziemia, która nie znosi słabości ani pychy. Dlatego ci, którzy tutaj żyją, sami stają się twardzi, bezkompromisowi i przyzwyczajeni do tego, że życie trzeba sobie wydrzeć.
+Największym zagrożeniem Milczących Gór jest sam teren. Strome zbocza, osuwiska, przepaście, nagłe zmiany pogody, brak dróg, zimno i głód zabijają tu równie pewnie jak broń. Wysoko w górach nawet niewielki błąd może skończyć się śmiercią.
 
-A jednak nawet oni nie zapuszczają się wszędzie.
+Drugim zagrożeniem jest odcięcie. Osada może przez tygodnie nie otrzymać pomocy. Podróżnik może utknąć po złej stronie przełęczy. Rana, która na nizinach byłaby problemem, tutaj może stać się wyrokiem, jeśli wydarzy się daleko od ludzi i zapasów.
 
-Bo środek gór — nieważne, czy mowa o Zachodnim Ramieniu, Wschodnim czy samym Centrum — pozostaje miejscem, do którego nie chodzi się bez potrzeby. Nie chodzą tam ludzie. Rzadko chodzą orkowie. Niewiele zapuszczają się nawet zwierzęta. To najdziksza część całej krainy, gdzie cisza jest pełniejsza, a kamień wygląda tak, jakby nigdy nie był przeznaczony dla śmiertelnych stóp.
+W górach żyją też drapieżniki, dzikie stworzenia i rzeczy, których nazwy różnią się między klanami. Wschodnie Ramię ma stare bory i jaskinie, Zachodnie Ramię głębokie doliny, a Centralne Góry miejsca tak puste, że nawet zwierzęta wydają się ich unikać.
 
-## Dawne ludy, dawne ślady
+Osobnym zagrożeniem są kopalnie i stare podziemia. Część szybów jest czynna, część opuszczona, część prowadzi do miejsc, których nikt nie powinien był odkopywać. W górach istnieją też ślady dawnych krasnoludzkich i elfickich osad. Większość pozostaje legendą, ale czasem legenda ma wejście, schody i zimne powietrze bijące spod ziemi.
 
-Najstarsi ludzie i najstarsi orkowie pamiętają jeszcze opowieści, wedle których kiedyś w tych górach żyły inne ludy. Mówi się o krasnoludach, które miały swoje miasta pod ziemią, i o elfach, które budowały kamienne osady wysoko na zboczach. O jednych i drugich nie słyszano tu jednak od wieków. Dla większości są już bardziej cieniem starej legendy niż częścią świata.
-
-Tylko czasem wracają opowieści o starych wejściach zasypanych kamieniem, o ścianach zbyt gładkich jak na naturę, o kamiennych tarasach wysoko tam, gdzie dziś nie mieszka nikt. Niewielu jednak zapuszcza się tak głęboko, by sprawdzić, ile prawdy zostało w tych historiach.
-
-## Góry, które nie wybaczają
-
-Milczące Góry nie są krainą otwartą na człowieka czy orka. To miejsce surowe nawet tam, gdzie daje żyć, i martwe tam, gdzie człowiek chciałby szukać przejścia. A jednak jest w nich coś, co przyciąga: stare kopalnie, odcięte doliny, legendy o pradawnych miastach, tajemnicze kręgi spotkań, stada na wysokich halach, wojny klanów, wąskie przełęcze i cisza, która wydaje się bardziej znacząca od słów.
-
-To ziemia, w której można znaleźć srebro, stary miecz, przysięgę, grób, drogę przez góry albo własną śmierć. Czasem wszystko naraz.
+Centralne Milczące Góry budzą największy lęk. To tam opowieści umieszczają pradawnego smoka śpiącego na najwyższym szczycie. Mało kto traktuje tę historię jak pewnik, ale w Milczących Górach rozsądni ludzie i orkowie rzadko śmieją się z takich opowieści zbyt głośno.
