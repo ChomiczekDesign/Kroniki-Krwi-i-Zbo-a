@@ -1,5 +1,7 @@
 # Popielaci
 
+![[Wizualizacja - Ork.png]]
+
 [[Orkowie|Popielaci]], przez ludzi najczęściej nazywani **orkami**, są wysoką, potężnie zbudowaną rasą o popielatej skórze, ostrych rysach twarzy i dolnych kłach wystających ponad wargę. Słowo „ork” w wielu ludzkich językach bywa neutralne, ale często niesie obcy albo lekko pogardliwy wydźwięk. Sami Popielaci określają się słowami tłumaczonymi jako **Popielaci**, **Popielate** albo **Powstali z Popiołu** — nie jako przydomkiem, lecz jako zwyczajną nazwą własnego ludu.
 
 Najważniejsze informacje o Popielatych: **są wysocy, muskularni, popielatoskórzy i krócej żyjący od ludzi**, zwykle około **sześćdziesięciu–siedemdziesięciu lat**. Popielate kobiety są przeciętnie **wyższe, silniejsze i liczniejsze** od mężczyzn, a na jednego mężczyznę rodzą się zwykle około dwie kobiety. Włosy Popielatych nie siwieją z wiekiem, lecz stopniowo czernieją, dlatego czarne włosy są oznaką starości. Talent magiczny jest wśród nich rzadki i częściej pojawia się u mężczyzn.
