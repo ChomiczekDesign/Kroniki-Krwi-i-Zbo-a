@@ -7,7 +7,7 @@
 
 ## Dozwolone rasy
 
-- Tylko [[Ludzie]] mogą wybrać archetyp Lioreńczyka.
+- Tylko [[Mechaniki/Rasy/Ludzie|Ludzie]] mogą wybrać archetyp Lioreńczyka.
 
 ## Początkowe bonusy
 
