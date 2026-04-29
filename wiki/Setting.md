@@ -9,10 +9,12 @@
 
 ## Sekcje
 - [[Setting/Magia|Magia i Czary]]
-- Ludy Świata
-  - [[Ludzie]]
-  - [[Orkowie|Popielaci (Orkowie)]]
-- Regiony świata  
+
+### Ludy Świata
+- [[Ludzie]]
+- [[Orkowie|Popielaci (Orkowie)]]
+
+### Regiony Świata  
   - [[Dorzecze]]
   - [[Kraina Jezior]]
   - [[Milczące Góry]]
