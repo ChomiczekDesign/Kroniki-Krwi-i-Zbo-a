@@ -1,6 +1,6 @@
 # Ludzie
 
-> Jeśli szukasz informacji o ludziach jako rasie w świecie, przejdź tutaj → [[Setting/Ludzie]]  
+> Jeśli szukasz informacji settingowych, przejdź tutaj → [[Setting/Ludy/Ludzie|Ludzie]]  
 
 ## Startowe Statystyki
 | BR | AG | INT | CUN | WILL | PR |
