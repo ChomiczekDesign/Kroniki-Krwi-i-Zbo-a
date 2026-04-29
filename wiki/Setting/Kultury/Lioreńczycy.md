@@ -1,7 +1,9 @@
 # Lioreńczycy
 
+![[Wizualizacja - Lioreńczycy.png]]
+
 > Jeśli szukasz informacji o samym regionie, przejdź tutaj → [[Kraina Jezior]]  
-> Jeśli szukasz informacji mechanicznych o archetypie, przejdź tutaj → [[Mechaniki/Lioreńczycy|Lioreńczycy]]
+> Jeśli szukasz informacji o archetypie, przejdź tutaj → [[Mechaniki/Lioreńczycy|Lioreńczycy]]
 
 [[Lioreńczycy]] to jedna z kultur [[Ludzie|ludzi]], wyrosła w [[Kraina Jezior|Krainie Jezior]]. Są ludem czarodziejek, przysiąg, reputacji i starannie pielęgnowanych obyczajów. Dla Lioreńczyka ważne jest, jak czyn zostanie zapamiętany, kto był jego świadkiem i czy zachowano należną godność.
 
