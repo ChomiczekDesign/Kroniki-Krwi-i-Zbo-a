@@ -20,4 +20,4 @@
 
 ## Język początkowy
 
-- Postać zna [[Setting/Dorzeczanie#Grodźmowa|Grodźmowę]].
+- Postać zna [[Setting/Kultury/Dorzeczanie#Grodźmowa|Grodźmowę]].
