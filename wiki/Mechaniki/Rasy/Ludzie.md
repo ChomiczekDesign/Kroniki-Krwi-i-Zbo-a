@@ -3,7 +3,7 @@
 > Jeśli szukasz informacji settingowych, przejdź tutaj → [[Setting/Ludy/Ludzie|Ludzie]]  
 
 ## Startowe Statystyki
-| BR | AG | INT | CUN | WILL | PR |
+| Brawn | Agility | Intellect | Cunning | Willpower | Presence |
 |:-----:|:-------:|:---------:|:-------:|:---------:|:--------:|
 | 2 | 2 | 2 | 2 | 2 | 2 |
 
