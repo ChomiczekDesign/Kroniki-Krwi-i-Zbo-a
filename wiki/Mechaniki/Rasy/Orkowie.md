@@ -13,5 +13,5 @@
 - **Silhouette:** 2
 
 ### Zdolności Rasowe:
-- **Popielata Krew**: Kiedy Popielaty wykonuje test umiejętności, usuwa #Setback nakładane przez arktyczne lub zimne warunki środowiskowe.
-- **Żelazna Samokontrola**: Kiedy Popielaty wykonuje test **Discipline**, dodaje **1** #Success do testów przeciw poddaniu się emocjom, strachowi, efektom mentalnym lub podobnym wpływom.
+- **Popielata Krew:** Popielaty usuwa #Setback nakładane przez zimne lub arktyczne warunki środowiskowe. W gorącym lub pustynnym klimacie MG może dodać #Setback do testów.
+- **Nieugięci:** Popielaty usuwa do #Setback #Setback wynikających z obrażeń krytycznych, stanu dezorientacji oraz strachu ze wszystkich wykonywanych przez siebie testów.
