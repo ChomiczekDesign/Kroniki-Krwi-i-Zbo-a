@@ -2,7 +2,7 @@
 
 ![[Wizualizacja - Dorzecze,png]]
 
-> Jeśli szukasz informacji o ludziach i kulturze Dorzecza, przejdź tutaj → [[Dorzeczanie]]  
+> Jeśli szukasz informacji o kulturze Dorzecza, przejdź tutaj → [[Dorzeczanie]]  
 
 [[Dorzecze]] to ogromna, mokra i ciemnozielona kraina rzek, borów, błot, leśnych osad i drewnianych grodów. Nie jest jednym państwem ani jedną uporządkowaną ziemią, lecz rozległym regionem, nad którym nikt nigdy nie utrzymał trwałej władzy. Rzeki dają tu wodę i ryby, lasy drewno, miód, skóry i zwierzynę, a wsie trzymają się brzegów, brodów i suchszych skrawków ziemi.
 
