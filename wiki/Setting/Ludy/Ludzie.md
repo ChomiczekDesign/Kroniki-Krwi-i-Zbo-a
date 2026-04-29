@@ -2,6 +2,8 @@
 
 ![[Wizualizacja - Ludzie.png]]
 
+> Jeśli szukasz informacji mechanicznych, przejdź tutaj → [[Mechaniki/Rasy/Ludzie|Ludzie]]  
+
 [[Ludzie]] są najpowszechniejszą i najbardziej przystosowawczą rasą znanego świata. Można spotkać ich niemal wszędzie: w żyznych [[Kraina Jezior|Krainach Jezior]], w błotnistych osadach [[Dorzecze|Dorzecza]], przy traktach [[Wielka Brama|Wielkiej Bramy]], w miastach Imperium, na pograniczach, w niewoli, na dworach i wśród ludów, które nie zawsze uważają ich za równych sobie. Nie wyróżniają się długowiecznością, siłą ani starożytną wiedzą, lecz zdolnością życia w bardzo różnych warunkach.
 
 Najważniejsze informacje o ludziach: **żyją najdłużej do około osiemdziesięciu lat, są liczni, rozproszeni, kulturowo różnorodni i wyjątkowo przystosowawczy**. Jako jedyna rasa potrafią mieć potomstwo z niemal każdą inną żywą rasą świata, choć **rasa dziecka zawsze podąża za rasą matki**. Dzięki temu ludzie często przekraczają granice między ludami — jako osadnicy, pośrednicy, kupcy, słudzy, zakładnicy, małżonkowie, niewolnicy albo narzędzia cudzej polityki.
