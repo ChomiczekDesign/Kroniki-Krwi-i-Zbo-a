@@ -17,3 +17,7 @@
   - **Herbalism**
   - **Survival**
 - Ta ranga nie może podnieść umiejętności powyżej limitu określonego dla tworzenia postaci.
+
+## Język początkowy
+
+- Postać zna [[Setting/Dorzeczanie#Grodźmowa|Grodźmowę]].
