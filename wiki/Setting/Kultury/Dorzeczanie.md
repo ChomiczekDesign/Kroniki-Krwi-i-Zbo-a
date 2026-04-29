@@ -1,5 +1,10 @@
 # Dorzeczanie
 
+![[Wizualizacja - Dorzeczanie.png]]
+
+> Jeśli szukasz informacji o samym regionie, przejdź tutaj → [[Dorzecze]]  
+> Jeśli szukasz informacji mechanicznych o archetypie, przejdź tutaj → [[Mechaniki/Dorzeczanie|Dorzeczanie]]
+
 [[Dorzeczanie]] to jedna z kultur [[Ludzie|ludzi]], wyrosła wśród rzek, borów, grodów i małych osad [[Dorzecze|Dorzecza]]. Rzadko myślą o sobie jako o jednym narodzie. Ważniejsze od wielkich nazw są dla nich **rodzina, dom, obejście, wspólny stół i ludzie, których zna się z twarzy**. „Swoje” zaczyna się od najbliższych, potem obejmuje chatę, zwierzęta, narzędzia i sąsiadów. Wszystko dalej jest mniej pewne.
 
 ## Jak grać Dorzeczanina
