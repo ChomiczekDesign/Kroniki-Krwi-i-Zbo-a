@@ -7,15 +7,13 @@
 
 ## Dozwolone rasy
 
-Tylko [[Ludzie]] mogą wybrać archetyp Dorzeczanina.
+- Tylko [[Ludzie]] mogą wybrać archetyp Dorzeczanina.
 
 ## Początkowe bonusy
 
-Postać Dorzeczanina otrzymuje **1 darmową rangę** w jednej z następujących umiejętności:
-
-- **Perception**
-- **Craft**
-- **Herbalism**
-- **Survival**
-
-Ta ranga nie może podnieść umiejętności powyżej limitu określonego dla tworzenia postaci.
+- Postać Dorzeczanina otrzymuje **1 darmową rangę** w jednej z następujących umiejętności:
+  - **Perception**
+  - **Craft**
+  - **Herbalism**
+  - **Survival**
+- Ta ranga nie może podnieść umiejętności powyżej limitu określonego dla tworzenia postaci.
