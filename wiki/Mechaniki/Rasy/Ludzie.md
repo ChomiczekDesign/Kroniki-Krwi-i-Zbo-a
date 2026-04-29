@@ -9,7 +9,7 @@
 
 - **Wound Threshold:** 10 + Brawn  
 - **Strain Threshold:** 10 + Willpower  
-- **Starting Experience:** 110 XP  
+- **Starting Experience:** 120 XP  
 - **Silhouette:** 1
 
 ### Zdolność Rasowa: Wspólna Twarz
