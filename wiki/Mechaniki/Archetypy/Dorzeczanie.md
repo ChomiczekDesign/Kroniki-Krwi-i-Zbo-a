@@ -2,8 +2,8 @@
 
 > Ten artykuł opisuje **Dorzeczan jako archetyp mechaniczny**.
 >
-> Jeśli szukasz informacji o kulturze Dorzeczan, przejdź tutaj → [[Dorzeczanie]]  
-> Jeśli szukasz informacji o samym regionie, przejdź tutaj → [[Dorzecze]]
+> Jeśli szukasz informacji o kulturze Dorzeczan, przejdź tutaj → [[Setting/Kultury/Dorzeczanie|Dorzeczanie]]  
+> Jeśli szukasz informacji o samym regionie, przejdź tutaj → [[Setting/Regiony/Dorzecze|Dorzecze]]
 
 ## Dozwolone rasy
 
