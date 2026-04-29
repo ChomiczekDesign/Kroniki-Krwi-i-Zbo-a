@@ -7,7 +7,7 @@
 
 ## Dozwolone rasy
 
-- Tylko [[Ludzie]] mogą wybrać archetyp Dorzeczanina.
+- Tylko [[Mechaniki/Rasy/Ludzie|Ludzie]] mogą wybrać archetyp Dorzeczanina.
 
 ## Początkowe bonusy
 
