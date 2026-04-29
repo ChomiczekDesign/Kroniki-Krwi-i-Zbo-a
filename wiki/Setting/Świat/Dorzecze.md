@@ -1,6 +1,6 @@
 # Dorzecze
 
-![[Wizualizacja - Dorzecze,png]]
+![[Wizualizacja - Dorzecze.png]]
 
 > Jeśli szukasz informacji o kulturze Dorzecza, przejdź tutaj → [[Dorzeczanie]]  
 
