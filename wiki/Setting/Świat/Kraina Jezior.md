@@ -2,6 +2,8 @@
 
 ![[Wizualizacja - Lior.png]]
 
+> Jeśli szukasz informacji o kulturze Lioru, przejdź tutaj → [[Lioreńczycy]]  
+
 [[Kraina Jezior|Lior]], zwany też [[Kraina Jezior|Krainą Jezior]], to żyzna, jasna i silnie magiczna kraina setek jezior, wysp, grobli, sadów i bielonych domów. Na pierwszy rzut oka wydaje się jednym z najbezpieczniejszych miejsc znanego świata: ziemia rodzi tu chętnie, zimy są łagodne, a wokół wież czarodziejek wyrastają spokojne miasteczka. Pod tą sielanką kryje się jednak starsza warstwa świata — duchy jezior, mgły prowadzące na manowce, zatopione elfickie ruiny i woda, która czasem nie oddaje tego, co raz zabrała.
 
 Najważniejsze informacje o Liorze: **Regionem rządzą czarodziejki-władczynie**, większe miejscowości powstają zwykle wokół ich wież i dworów, a życie krainy opiera się na **jeziorach, sadach, rybołówstwie, handlu wodnym i lokalnej magii**. Lior jest dobrym miejscem do życia, ale bezpieczny pozostaje głównie tam, gdzie sięgają osady, znane szlaki i wpływ miejscowej czarodziejki. 
