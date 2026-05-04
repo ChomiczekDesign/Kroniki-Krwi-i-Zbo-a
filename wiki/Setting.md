@@ -12,6 +12,8 @@
 
 ### Ludy Świata
 - [[Ludzie]]
+  - [[Kultury/Dorzeczanie|Dorzeczanie]]
+  - [[Kultury/Lioreńczycy|Lioreńczycy]]
 - [[Orkowie|Popielaci (Orkowie)]]
 
 ### Regiony Świata  
